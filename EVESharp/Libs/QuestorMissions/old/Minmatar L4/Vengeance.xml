@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+ <killSentries>true</killSentries> <!-- if set to true questor's clearpocket action will not ignore sentries -->
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+        <action name="MoveTo">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+		<!-- Group 1 -->
+		<action name="Kill">
+          <parameter name="target" value="Gist General" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gistis Primus" />
+		  <parameter name="target" value="Gistis Tribuni" />
+        </action>
+		<!-- Group 2-->
+		<action name="Kill">
+          <parameter name="target" value="Gist War General" />
+		  <parameter name="target" value="Gist War General" />
+		  <parameter name="target" value="Gist War General" />
+        </action>
+		<!-- Group 3-->
+		<action name="Kill">
+          <parameter name="target" value="Gistum Liquidator" />
+		  <parameter name="target" value="Gistum Marauder" />
+        </action>
+		<!-- Group 4-->
+		<action name="Kill">
+          <parameter name="target" value="Gistum Phalanx" />
+		  <parameter name="target" value="Gistum Centurion" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gist War General" />
+		  <parameter name="target" value="Gist Nephilin" />
+        </action>
+		<!-- if anything is left, kill it --> 
+		<action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="2">
+      <actions>
+        <action name="MoveTo">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+		<!-- Group 1-->
+		<action name="Kill">
+          <parameter name="target" value="Gistatis Legionnaire" />
+		  <parameter name="target" value="Gistatis Primus" />
+        </action>
+		<!-- Group 2-->
+		<action name="Kill">
+          <parameter name="target" value="Gist Saint" />
+		  <parameter name="target" value="Gist Warlord" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gistum Marauder" />
+		  <parameter name="target" value="Gistum Liquidator" />
+        </action>
+		<!-- Group 3-->
+		<action name="Kill">
+          <parameter name="target" value="Gist Throne" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gistum Centurion" />
+		  <parameter name="target" value="Gistum Phalanx" />
+        </action>
+		<!-- Group 4-->
+		<action name="Kill">
+          <parameter name="target" value="Gist Nephilim" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gistum Centurion" />
+		  <parameter name="target" value="Gistum Phalanx" />
+        </action>
+		<action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="3">
+      <actions>
+		<action name="MoveToBackground">
+           <parameter name="target" value="Hoborak Moon" /> 
+        </action> 
+		<action name="Kill">
+          <parameter name="target" value="Gist Commander" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gist Warlord" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Tower Sentry Angel III" />
+		  <parameter name="target" value="Angel Heavy Missile Battery" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Gistatis Praefectus" />
+		  <parameter name="target" value="Gistatis Tribunus" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Hoborak Moon" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

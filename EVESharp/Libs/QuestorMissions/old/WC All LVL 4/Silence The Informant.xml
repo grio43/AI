@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Thermal</damagetype>
+      <actions>
+		
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+		<action name="Ignore">
+			<parameter name="Add" value="Elite Drone Parasite" />
+			<parameter name="Add" value="Elite Drone Parasite" />
+			<parameter name="Add" value="Elite Drone Parasite" />
+			<parameter name="Add" value="Elite Drone Parasite" />
+			<parameter name="Add" value="Elite Drone Parasite" />
+		</action>
+		<action name="Kill">
+			<parameter name="Target" value="Tower Sentry Drone II" />
+			<parameter name="Target" value="Tower Sentry Drone II" />
+        </action>
+		<action name="ClearPocket" />
+		<action name="Ignore">
+			<parameter name="Clear" value="true" />
+		</action>
+		<action name="ClearPocket">  <!-- This is a commonly used action that clears the pocket of NPCs -->
+			<parameter name="distance">48000</parameter> <!-- default distance is your maxRange, use this if you only want to clear aggro within 30k -->
+		</action>
+		<action name="ClearPocket" />
+		<action name="LootItem"> <!-- this looks in a specific container for a specific item potentially saving ALOT of time because it does not necessarily have to "loot the field" to find the item -->
+        <parameter name="Item" value="Elite Drone AI" />
+		<parameter name="Target" value="Elite Drone Parasite Wreck" />
+        <parameter name="Quantity" value="5" />
+      </action>
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="2">
+      <actions>
+
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="3">
+      <actions>
+        <action name="Kill">
+          <parameter name="target" value="Kioran Jeraulek" />
+          <parameter name="IgnoreAttackers" value="True" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+	    <action name="MoveTo"> <!-- initiate movement to the "target" and fight only those NPCs that target you while you are on the way, process no other actions until you reach the target-->
+          <parameter name="Target">Acceleration Gate</parameter>
+          <parameter name="Distance" value="0"></parameter>
+          <parameter name="StopWhenTargeted" value="false"></parameter>
+          <parameter name="StopWhenAggressed" value="false"></parameter>
+        </action>
+	    <action name="ClearPocket" />
+        <action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+          <parameter name="Timeout" value="15"></parameter>
+        </action>
+	    <action name="ClearPocket" />
+		<action name="LootItem">
+          <parameter name="Item" value="Secret Documents" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

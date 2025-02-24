@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+
+		<action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Gate To The Serpentis Base" />
+		  <parameter name="AlternativeTarget" value="Gate To The Cartel Base" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+
+        <action name="ClearWithinWeaponsRangeOnly" />
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Gate To The Research Outpost" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="2">
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+
+        <action name="ClearWithinWeaponsRangeOnly" />
+        <action name="ClearPocket" />
+        <action name="Loot">
+          <parameter name="Target" value="Damaged Heron" />
+          <parameter name="Item" value="Ship's Crew" />
+        </action>
+        <action name="Activate">
+          <parameter name="Target" value="Gate To The Warzone" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="3">
+      <actions>
+
+        <action name="ClearWithinWeaponsRangeOnly" />
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Gate To The Guristas Base" />
+		  <parameter name="AlternativeTarget" value="Gate To The Blood Raider Base" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="4">
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+        <action name="ClearWithinWeaponsRangeOnly" />
+        <action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

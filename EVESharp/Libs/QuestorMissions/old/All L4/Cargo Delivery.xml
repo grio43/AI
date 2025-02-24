@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>
+    <pocket id="0">
+       
+      <actions>
+        <action name="MoveToBackground">
+          <parameter name="Target" value="Warehouse" />
+		  <parameter name="Distance" value="2000"/>
+        </action>
+        <action name="ClearPocket" />
+        <action name="Loot">
+          <parameter name="Item" value="Quafe Ultra" />
+          <parameter name="Target" value="Warehouse" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

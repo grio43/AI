@@ -1,0 +1,139 @@
+Target Painting I
+Target Painting II
+Target Painting III
+Target Painting IV
+Capacitor Management IV
+Capacitor Management V
+Capacitor Systems Operation IV
+Capacitor Systems Operation V
+Weapon Upgrades III
+Weapon Upgrades IV
+Power Grid Management V
+Missile Launcher Operation II
+Missile Launcher Operation III
+Missile Launcher Operation IV
+Warhead Upgrades I
+Warhead Upgrades II
+Warhead Upgrades III
+Warhead Upgrades IV
+Warhead Upgrades V
+Rapid Launch I
+Rapid Launch II
+Rapid Launch III
+Rapid Launch IV
+Rapid Launch V
+Missile Projection I
+Missile Projection II
+Missile Projection III
+Missile Projection IV
+Missile Projection V
+Missile Launcher Operation V
+Missile Bombardment I
+Missile Bombardment II
+Missile Bombardment III
+Missile Bombardment IV
+Missile Bombardment V
+Light Missiles I
+Light Missiles II
+Light Missiles III
+Heavy Assault Missiles I
+Heavy Assault Missiles II
+Heavy Assault Missiles III
+Heavy Assault Missiles IV
+Heavy Assault Missiles V
+Heavy Assault Missile Specialization I
+Heavy Assault Missile Specialization II
+Heavy Assault Missile Specialization III
+Heavy Assault Missile Specialization IV
+Guided Missile Precision I
+Guided Missile Precision II
+Guided Missile Precision III
+Guided Missile Precision IV
+Guided Missile Precision V
+Warp Drive Operation II
+Warp Drive Operation III
+Warp Drive Operation IV
+Warp Drive Operation V
+Navigation IV
+High Speed Maneuvering II
+High Speed Maneuvering III
+Fuel Conservation I
+Fuel Conservation II
+Fuel Conservation III
+Fuel Conservation IV
+Fuel Conservation V
+Evasive Maneuvering II
+Evasive Maneuvering III
+Evasive Maneuvering IV
+Afterburner IV
+Acceleration Control II
+Acceleration Control III
+Cybernetics II
+Cybernetics III
+Cybernetics IV
+Cybernetics V
+Mechanics III
+Jury Rigging I
+Jury Rigging II
+Jury Rigging III
+Launcher Rigging I
+Launcher Rigging II
+Launcher Rigging III
+Launcher Rigging IV
+Caldari Destroyer I
+Caldari Destroyer II
+Caldari Destroyer III
+Caldari Cruiser I
+Caldari Cruiser II
+Caldari Cruiser III
+Caldari Cruiser IV
+Caldari Cruiser V
+Caldari Strategic Cruiser I
+Caldari Strategic Cruiser II
+Caldari Strategic Cruiser III
+Shield Operation IV
+Shield Operation V
+Caldari Defensive Systems I
+Caldari Defensive Systems II
+Caldari Defensive Systems III
+Caldari Defensive Systems IV
+Caldari Defensive Systems V
+CPU Management V
+Caldari Electronic Systems I
+Caldari Electronic Systems II
+Caldari Electronic Systems III
+Caldari Electronic Systems IV
+Caldari Electronic Systems V
+Caldari Engineering Systems I
+Caldari Engineering Systems II
+Caldari Engineering Systems III
+Caldari Engineering Systems IV
+Caldari Engineering Systems V
+Caldari Offensive Systems I
+Caldari Offensive Systems II
+Caldari Offensive Systems III
+Caldari Offensive Systems IV
+Caldari Offensive Systems V
+Navigation V
+Caldari Propulsion Systems I
+Caldari Propulsion Systems II
+Caldari Propulsion Systems III
+Caldari Propulsion Systems IV
+Caldari Propulsion Systems V
+Target Management III
+Target Management IV
+Signature Analysis II
+Signature Analysis III
+Signature Analysis IV
+Gravimetric Sensor Compensation I
+Gravimetric Sensor Compensation II
+Gravimetric Sensor Compensation III
+Tactical Shield Manipulation III
+Tactical Shield Manipulation IV
+Jury Rigging IV
+Shield Compensation I
+Shield Compensation II
+Shield Compensation III
+Shield Compensation IV
+Shield Compensation V
+Shield Management III

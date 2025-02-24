@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="ClearPocket" /> 
+        <action name="ClearPocket" /> <!-- Mercenary Overlord should be killed here, he causes the respawn -->
+		<action name="Kill">
+	      <parameter name="Target" value="Shadow" /> 
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

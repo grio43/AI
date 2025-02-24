@@ -1,0 +1,35 @@
+Caldari Destroyer
+Caldari Cruiser
+Caldari Battlecruiser
+Caldari Battleship
+Target Painting
+Light Missiles
+Heavy Missiles
+Cruise Missiles
+Cruise Missile Specialization
+Jury Rigging
+Launcher Rigging
+Light Drone Operation
+Gallente Drone Specialization
+Drone Interfacing
+Drone Durability
+Drone Navigation
+Drone Sharpshooting
+Warhead Upgrades
+Rapid Launch
+Missile Projection
+Missile Bombardment
+Guided Missile Precision
+Fuel Conservation
+Shield Compensation
+Social
+Connections
+Diplomacy
+Fast Talk
+Leadership
+Security Connections
+Negotiation
+Gravimetric Sensor Compensation
+Target Navigation Prediction
+Advanced Drone Avionics
+Advanced Target Management

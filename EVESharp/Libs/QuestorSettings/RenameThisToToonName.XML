@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!--         DEBUG SETTINGS        -->
+  <debugAbyssalDeadspaceBehavior>false</debugAbyssalDeadspaceBehavior>  
+  <debugActivateBastion>false</debugActivateBastion>
+  <debugActivateGate>false</debugActivateGate>
+  <debugAbyssalCenterDrawDistance>250</debugAbyssalCenterDrawDistance>
+  <debugActivateBastion>false</debugActivateBastion>
+  <debugActivateWeapons>false</debugActivateWeapons>
+  <debugAddDronePriorityTarget>false</debugAddDronePriorityTarget>
+  <debugAddPrimaryWeaponPriorityTarget>false</debugAddPrimaryWeaponPriorityTarget>
+  <debugAgentInfo>false</debugAgentInfo>
+  <debugAgentInteraction>false</debugAgentInteraction>
+  <debugAgentInteractionReplyToAgent>false</debugAgentInteractionReplyToAgent>
+  <debugAmmoManagement>false</debugAmmoManagement>
+  <debugArm>false</debugArm>
+  <debugBuyItems>false</debugBuyItems>
+  <debugBuyLpItem>false</debugBuyLpItem>
+  <debugCheckSessionValid>false</debugCheckSessionValid>
+  <debugCleanup>false</debugCleanup>
+  <debugClearPocket>false</debugClearPocket>
+  <debugClick>false</debugClick>
+  <debugCombat>false</debugCombat>
+  <debugCombatController>false</debugCombatController>
+  <debugCombatMissionCtrl>false</debugCombatMissionCtrl>
+  <debugCombatMissionsBehavior>false</debugCombatMissionsBehavior>
+  <debugControllerManager>false</debugControllerManager>
+  <debugCorrectAmmoTypeInCargo>false</debugCorrectAmmoTypeInCargo>
+  <debugCorrectAmmoTypeToUse>false</debugCorrectAmmoTypeToUse>
+  <debugCorrectAmmoTypeToUseByRange>false</debugCorrectAmmoTypeToUseByRange>
+  <debugCourierContractController>false</debugCourierContractController>
+  <debugCourierMissions>false</debugCourierMissions>
+  <debugCurrentDamageType>false</debugCurrentDamageType>
+  <debugDecline>false</debugDecline>
+  <debugDefense>false</debugDefense>
+  <DebugDisableAmmoManagement>false</DebugDisableAmmoManagement>
+  <debugDirectionalScanner>false</debugDirectionalScanner>
+  <debugDisableCleanup>false</debugDisableCleanup>
+  <debugDisableCombat>false</debugDisableCombat>
+  <debugDisableDefense>false</debugDisableDefense>
+  <debugDisableDrones>false</debugDisableDrones>
+  <debugDisableIgnoreBookmarkedSignatures>false</debugDisableIgnoreBookmarkedSignatures>
+  <debugDisableSalvage>false</debugDisableSalvage>
+  <debugDisableTargetCombatants>false</debugDisableTargetCombatants>
+  <debugDockBookmarks>false</debugDockBookmarks>
+  <debugDoneAction>false</debugDoneAction>
+  <debugDroneController>false</debugDroneController>
+  <debugDrones>false</debugDrones>
+  <debugEntityCache>false</debugEntityCache>
+  <debugExplorationNoWeaponsBehavior>false</debugExplorationNoWeaponsBehavior>
+  <debugFactionWarfareComplexBehavior>false</debugFactionWarfareComplexBehavior>
+  <debugFittingMgr>false</debugFittingMgr>
+  <debugFleetMgr>false</debugFleetMgr>
+  <debugFocusFire>false</debugFocusFire>
+  <debugGetBestDroneTarget>false</debugGetBestDroneTarget>
+  <debugGetBestTarget>false</debugGetBestTarget>
+  <debugGotobase>false</debugGotobase>
+  <debugHangars>false</debugHangars>
+  <debugHackingWindow>false</debugHackingWindow>
+  <debugHighSecCombatSignaturesBehavior>false</debugHighSecCombatSignaturesBehavior>
+  <debugInteractWithEve>false</debugInteractWithEve>
+  <debugIsReadyToTarget>false</debugIsReadyToTarget>
+  <debugHighSecAnomalyBehavior>false</debugHighSecAnomalyBehavior>
+  <debugIgnoreBookmarkedSignatures>false</debugIgnoreBookmarkedSignatures>
+  <debugIndustryBehavior>false</debugIndustryBehavior>
+  <debugInSpace>false</debugInSpace>
+  <debugInStation>false</debugInStation>
+  <debugInteractWithEve>false</debugInteractWithEve>
+  <debugInventoryContainers>false</debugInventoryContainers>
+  <debugKillAction>false</debugKillAction>
+  <debugKillTargets>false</debugKillTargets>
+  <debugLoadScripts>false</debugLoadScripts>
+  <debugLoadSettings>false</debugLoadSettings>
+  <debugLoginRewards>false</debugLoginRewards>
+  <debugLogOrderOfDroneTargets>false</debugLogOrderOfDroneTargets>
+  <debugLogOrderOfKillTargets>false</debugLogOrderOfKillTargets>
+  <debugLogOrderOfNavigateOnGridTargets>false</debugLogOrderOfNavigateOnGridTargets>
+  <debugLootContainer>false</debugLootContainer>
+  <debugLootCorpHangar>false</debugLootCorpHangar>
+  <debugLootWrecks>false</debugLootWrecks>
+  <debugMarketOrders>false</debugMarketOrders>
+  <debugMiningBehavior>false</debugMiningBehavior>
+  <debugMobileTractor>false</debugMobileTractor>
+  <debugMoveTo>false</debugMoveTo>
+  <debugNavigateOnGrid>false</debugNavigateOnGrid>
+  <debugNavigateOnGridImaginarySphere>false</debugNavigateOnGridImaginarySphere>
+  <debugOnFrame>false</debugOnFrame>
+  <debugOverLoadHardeners>false</debugOverLoadHardeners>
+  <debugOverLoadModules>false</debugOverLoadModules>
+  <debugOverLoadReps>false</debugOverLoadReps>
+  <debugOverloadWeapons>false</debugOverloadWeapons>
+  <debugPanic>false</debugPanic>
+  <debugPickTargets>false</debugPickTargets>
+  <debugPotentialCombatTargets>false</debugPotentialCombatTargets>
+  <debugPreferredPrimaryWeaponTarget>false</debugPreferredPrimaryWeaponTarget>
+  <debugProbeScanner>false</debugProbeScanner>
+  <debugReduceGraphicsController>false</debugReduceGraphicsController>
+  <debugReloadAll>false</debugReloadAll>
+  <debugReloadorChangeAmmo>false</debugReloadorChangeAmmo>
+  <debugRemoteReps>false</debugRemoteReps>
+  <debugSalvage>false</debugSalvage>
+  <debugSalvageGridBehavior>false</debugSalvageGridBehavior>
+  <debugSetspeed>false</debugSetspeed>
+  <debugSignaturesController>false</debugSignaturesController>
+  <debugSkillQueue>false</debugSkillQueue>
+  <debugSlaveBehavior>false</debugSlaveBehavior>
+  <debugSortBlueprintsBehavior>false</debugSortBlueprintsBehavior>
+  <debugSpeedMod>false</debugSpeedMod>
+  <debugStorylineMissions>false</debugStorylineMissions>
+  <debugSubscriptionEnd>false</debugSubscriptionEnd>
+  <debugTargetCombatants>false</debugTargetCombatants>
+  <debugTargetCombatantsController>false</debugTargetCombatantsController>
+  <debugTargetPainters>false</debugTargetPainters>
+  <debugTargetWrecks>false</debugTargetWrecks>
+  <debugTractorBeams>false</debugTractorBeams>
+  <debugTraveler>false</debugTraveler>
+  <debugUndockBookmarks>false</debugUndockBookmarks>
+  <debugDockBookmarks>false</debugDockBookmarks>
+  <debugUnloadLoot>false</debugUnloadLoot>
+  <debugUnOverLoadModules>false</debugUnOverLoadModules>
+  <debugWarpCloakyTrick>false</debugWarpCloakyTrick>
+  <debugWatchForActiveWars>false</debugWatchForActiveWars>
+  <debugWindows>false</debugWindows>
+  <debugWSpaceScoutBehavior>false</debugWSpaceScoutBehavior>
+  <clearDebugLines>false</clearDebugLines>
+  <ignoreConcord>true</ignoreConcord>
+  <redeemItems>false</redeemItems>
+  <claimLoginRewards>false</claimLoginRewards>
+  
+  <framesPerSecondLimit>15</framesPerSecondLimit>
+  <backgroundFramesPerSecondLimit>6</backgroundFramesPerSecondLimit>
+  <enableFPSLimits>true</enableFPSLimits>
+  
+  <!-- Supplies to keep at base (manually!):   -->
+  <!-- 5000 reports   -->
+  <!-- 5 million EMP L  -->
+  <!-- 5 million Fusion L  -->
+  
+  <createCourierContracts>false</createCourierContracts>
+  <createCourierContractForCorp>false</createCourierContractForCorp>
+  <courierContractMaxValuePerContract>1000000000</courierContractMaxValuePerContract>
+  <courierContractMaxValuePerItem>5000000000</courierContractMaxValuePerItem>
+  <courierContractMinimumValuePerContract>350000000</courierContractMinimumValuePerContract>
+  <courierContractMinimumDaysBetweenContracts>30</courierContractMinimumDaysBetweenContracts>
+  <courierContractDestinationStationID>60003760</courierContractDestinationStationID> <!-- Jita: 60003760, Rens: 60004588, Amarr: 60008494,  Dodixie: 60011866, Hek:  60005686 -->  <courierContractRewardToOffer></courierContractRewardToOffer>
+  <courierContractHaulingProvider>Red Frog Freight</courierContractHaulingProvider> <!--  Red Frog Freight or Push Industries -->
+   
+  <!-- this will only create a courier contract once we are "full" and have all of the items listed with a quantity higher than what is set  --> 
+  <itemsToCourierContract>
+    <!-- <itemToCourierContract description="Caldari Navy Uranium Charge S" typeId="23013"  quantity="1" /> -->
+  </itemsToCourierContract>
+  
+  <itemsToBuyFromLpStore>
+    <!-- <itemToBuyFromLpStore description="Caldari Navy Uranium Charge S" typeId="23013"  quantity="1" /> -->
+  </itemsToBuyFromLpStore> 
+    
+  <itemsToTakeToMarket>
+    <!-- <itemToTakeToMarket description="Caldari Navy Uranium Charge S" typeId="23013"  quantity="100" /> -->
+  </itemsToTakeToMarket> 
+  
+  <itemsToKeepInStock>
+    <!-- <itemToKeepInStock description="Reports" typeId="3814"  quantity="100" /> -->
+    <!-- <itemToKeepInStock description="X5 Enduring Stasis Webifier" typeId="4025"  quantity="2" /> -->
+    <!-- <itemToKeepInStock description="100MN Y-S8 Compact Afterburner" typeId="35657"  quantity="2" /> -->
+    <!-- <itemToKeepInStock description="Fourier Compact Tracking Enhancer" typeId="6325"  quantity="4" /> -->
+  </itemsToKeepInStock> 
+ 
+  <!-- MAJOR FEATURES -->
+  <disable3D>false</disable3D>
+  <disable3dInStation>false</disable3dInStation>
+  <debugEntitiesSetDisplayFalse>false</debugEntitiesSetDisplayFalse>
+  <enableStorylines>true</enableStorylines><!-- EnableStoryLines is either true or false and enables questor to run storyline missions -->
+  <storylineDoNotTryToDoEncounterMissions>true</storylineDoNotTryToDoEncounterMissions>
+  <storylineDoNotTryToDoCourierMissions>false</storylineDoNotTryToDoCourierMissions>
+  <storylineDoNotTryToDoTradeMissions>false</storylineDoNotTryToDoTradeMissions>
+  <storylineDoNotTryToDoMiningMissions>true</storylineDoNotTryToDoMiningMissions>
+  <UseFittingManager>true</UseFittingManager><!-- UseFittingManager is either true of false and allows questor to use the IN GAME EVE fitting manager to change your fits per faction/mission -->
+  <AllowRemovingNoCompatibleStorylines>true</AllowRemovingNoCompatibleStorylines>
+  <homeBookmarkName>HomeBookmark</homeBookmarkName> <!-- Used by some behaviors to figure out where home is -->
+  
+  <!-- INDUSTRY SETTINGS -->
+  <industryInputs> 
+		<industryInput typeId="34" description="Tritanium" quantity="200" />
+		<industryInput typeId="35" description="Pyerite" quantity="200" />
+		<industryInput typeId="48112" description="Zero-Point Condensate" quantity="200" />
+		<industryInput typeId="47975" description="Crystalline Isogen-10" quantity="200" />
+  </industryInputs> 
+  
+  <industryOutputs> 
+		<!--<industryOutput typeId="2486" description="Warrior I"  quantity="4000" blueprintTypeId="2487" maxRunsToTryToMake="5" /> -->
+		<industryOutput typeId="213" description="Nova Light Missile"  quantity="400000" blueprintTypeId="814" maxRunsToTryToMake="5" />
+		<!-- <industryOutput typeId="602" description="Kestrel"  quantity="100" blueprintTypeId="949" maxRunsToTryToMake="1" /> -->
+		<!-- <industryOutput typeId="47885" description="Tetryon Exotic Plasma S" quantity="200000" blueprintTypeId="48097" /> -->
+		<!-- <industryOutput typeId="11134" description="Amarr Shuttle"  quantity="20" blueprintTypeId="11135" /> -->
+  </industryOutputs>
+  
+  <!-- AGENT AND MISSION SETTINGS -->
+  <minAgentBlackListStandings>5.5</minAgentBlackListStandings> <!-- MinAgentBlackListStandings is a number between -10 and 10, if your standings have gone below MinAgentBlackListStandings you will wait between declines for the agent cooldown timer to expire -->
+  <minAgentGreyListStandings>6.0</minAgentGreyListStandings> <!-- MinAgentGreyListStandings is a number between -10 and 10 and is used to determine if you can decline more greylist missions, Once you drop below this threshold greylist missions will be accepted in order to keep your standings up -->
+  <missionsPath>L1</missionsPath> <!-- Missionspath is a string and is used for the path in /.net programs/ to point questor to where you want it to use the mission xmls from -->
+
+  <agentsList>
+    <agentList name="MyAgentsNameGoesHere" priority="0" /> 
+  </agentsList>
+  
+  <!-- SHIP NAMES -->
+  <combatShipName>myCombatShipName</combatShipName><!-- needs to be customized-->
+  <salvageShipName>mySalvageShipName</salvageShipName><!-- needs to be customized-->
+  <transportShipName>myTransportShipName</transportShipName><!-- needs to be customized-->
+  <storylineTransportShipName>myStorylineTransportShipName</storylineTransportShipName><!-- needs to be customized-->
+  <travelShipName>myTravelShipName</travelShipName><!-- needs to be customized-->
+  <miningShipName>myStorylineTransportShipName</miningShipName><!-- not in use -->
+  
+  <!-- Scanner -->
+  <scanGasSites>false</scanGasSites>
+  <scanOreSites>false</scanOreSites>
+  <scanIceSites>false</scanIceSites>
+  <scanCombatSites>false</scanCombatSites>
+  <scanWormholes>true</scanWormholes>
+  <scanRelicSites>false</scanRelicSites>
+  <scanDataSites>false</scanDataSites>
+  <scanHomefrontSites>false</scanHomefrontSites> 
+  
+  <!-- SALVAGE AND LOOT SETTINGS -->
+  <highTierLootCorpHangarDivisionNumber></highTierLootCorpHangarDivisionNumber> <!-- Corp Hangar division number (1-7) to use for high tier loot  -->
+  <highTierLootContainer></highTierLootContainer> <!-- Name of container to use for high tier loot, leave blank if you want loot to go elsewhere (default is the item hangar) -->
+  <lootCorpHangarDivisionNumber></lootCorpHangarDivisionNumber> <!-- Corp Hangar division number (1-7) to use for loot  -->
+  <lootContainer></lootContainer> <!-- Name of container to use for loot, leave blank if you want loot to go elsewhere (default is the item hangar) -->
+  <createSalvageBookmarks>false</createSalvageBookmarks> <!-- Create salvage bookmarks once a pocket has been cleared and there are wrecks/cans left Note: All salvage bookmarks will be in this naming format:  BookmarkPrefix [time] Note: It will check all salvage bookmarks to see if the current spot has to be bookmarked  Warning: The bot could become slow with a lot of salvage-bookmarks, make sure that after mission salvaging is enabled or that you manually delete bookmarks! -->
+  <salvageMultpleMissionsinOnePass>false</salvageMultpleMissionsinOnePass> <!-- Setting allow you to complete multiple missions before doing after mission salvaging -->
+  <unloadLootAtStation>false</unloadLootAtStation> <!-- Unload loot at station when doing after-mission salvaging (*only* when doing after-mission salvaging) Note: If this is disabled then the bot will use the isk/m3 algorithm used in missions to dump low-value loot -->
+  <reserveCargoCapacity>100</reserveCargoCapacity> <!-- Amount of cargo capacity to reserve, should be at least 80m3 if you are salvaging -->
+  <maximumWreckTargets>1</maximumWreckTargets> <!-- maximum number of wreck targets, at least 1 is required for salvager or tractor beam to work -->
+  <useGatesInSalvage>true</useGatesInSalvage><!-- if the mission does not despawn (ninja looters?) and the accel gates are still present: use gates! -->
+  <bookmarkPrefix>sal:</bookmarkPrefix><!-- All salvage bookmarks will be prefixed by this string, default: Salvage: -->
+  <minimumWreckCount>5</minimumWreckCount><!-- Minimum amount of wrecks / unlooted containers needed for a bookmark to be created -->
+  <afterMissionSalvaging>false</afterMissionSalvaging><!-- After-mission salvaging, this will cause the bot to visit all salvage bookmarks  with the salvage ship and pickup loot / salvage wrecks  Note: After mission salvaging will *only* take place if there are *no* accepted missions left ! -->
+  <lootEverything>false</lootEverything> <!-- Loot everything or only mission loot, if turned off empty loot-actions are ignored and the action is finished as soon as the mission item is in the ship's cargo, if turned on then the bot will loot all wrecks/cans before finishing the loot-action -->
+  <lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion>true</lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion> <!-- lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion if true will ignore the lootEverything setting and will loot 'on the fly' but will not slow down to finish looting --> <!-- questor will only loot in the background and will happily finish pockets that have loot still in them, use loot (to loot the field) or lootitem (to get a specific item only) actions as needed -->
+  <ageofBookmarksForSalvageBehavior>45</ageofBookmarksForSalvageBehavior> <!-- This is the age bookmarks have to reach in minutes before the dedicated salvager will attempt to use the bookmark: expressed in minutes --> <!-- It is HIGHLY recommended that you leave this at greater than 30 min - wrecks roughly (exactly?) 2 hours -->
+  <ageofSalvageBookmarksToExpire>120</ageofSalvageBookmarksToExpire> <!-- Any bookmarks over this age will be deleted without warping there first because the wrecks despawn after ~2 hours anyway: expressed in minutes-->
+  <tractorBeamMinimumCapacitor>0</tractorBeamMinimumCapacitor> <!-- tractorBeamMinimumCapacitor - below this capacitor level the background salvaging behavior will not attempt to use a tractor beam: default 0% -->
+  <salvagerMinimumCapacitor>0</salvagerMinimumCapacitor> <!-- salvagerMinimumCapacitor - below this capacitor level the background salvaging behavior will not attempt to use a salvager: default 0% -->
+  <doNotDoANYSalvagingOutsideMissionActions>false</doNotDoANYSalvagingOutsideMissionActions> <!-- doNotDoANYSalvagingOutsideMissionActions: disabled ALL salvage related actions, tractor/salvager/wreck targeting, everything when not processing a loot or lootitem action in a mission -->
+
+    <!-- FITTING SETTINGS -->
+  <factionfittings>
+    <factionfitting faction="Default" fitting="Corax" />
+    <factionfitting faction="Republic Fleet" fitting="Corax" shipName="Corax" dronetype="2456" />
+	<factionfitting faction="Angel Cartel" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Blood Raiders" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Sansha's Nation" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Guristas" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Guristas Pirates" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Caldari State" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Rogue Drones" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Ammatar Mandate" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Thukker Tribe" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Amarr Navy" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Khanid Kingdom" fitting="Corax" dronetype="2456" />
+  </factionfittings>
+  
+  <missionfittings>
+    <missionfitting mission="Dread Pirate Scarlet" fitting="CoraxEM" shipName="Corax1" /> <!-- optionally you can include: droneTypeId="2456" -->
+  </missionfittings>
+  
+  <ammoTypes>
+    <ammoType typeId="183" damageType="EM"        range="8000" quantity="3000" />
+    <ammoType typeId="183" damageType="Kinetic"   range="8000" quantity="3000" />
+    <ammoType typeId="183" damageType="Thermal"   range="8000" quantity="3000" />
+    <ammoType typeId="183" damageType="Explosive" range="8000" quantity="3000" />
+    <!-- <ammoType typeId="183" damageType="Explosive" range="8000" quantity="3000" OnlyUseAsOverrideAmmo="True" OverrideTargetTypeId="999999999" OverrideTargetGroupId="999999999" /> -->
+	<!-- AmmoType Settings Explained  -->
+	<!-- OverrideTargetTypeId --> <!-- if defined we will use this ammo to shoot ANY NPC with this TYPEID (individual NPC name) -->
+	<!-- OverrideTargetGroupId --> <!-- if defined we will use this ammo to shoot ANY NPC with this GROUPID (Group of NPCs) -->
+    <!-- OnlyUseAsOverrideAmmo --> <!-- if set to true we ONLY use this defined ammotype with the groupID or TYPEID above. YOU CAN Define the same Ammo (i.e. Hail) as an override ammo and again with that false: this idea is that if you define an override ammo the bot ONLY uses that override ammo against that paricular NPC so you can have different "EM" ammo than usual or whatever damage type: useful for W-Space NPCs -->
+  </ammoTypes>
+  
+  <boosterTypesToConsumeInStation>
+	<boosterType></boosterType> <!--typeID of the boosters you wish to attempt to consume, you can add multiple, but make sure they are different slots! They will be consumed in station during Arm. -->
+  </boosterTypesToConsumeInStation>
+  
+  <boosterTypesToLoadIntoCargo>
+	<boosterType></boosterType> <!--typeID of the boosters you wish to load into cargo, you can add multiple, but make sure they are different slots!  -->
+  </boosterTypesToLoadIntoCargo>
+  
+  
+  <trackingDisruptorScript></trackingDisruptorScript> <!--  typeID of the capacitor charges to use -->
+  <trackingComputerScript></trackingComputerScript> <!--  typeID of the capacitor charges to use -->
+  <trackingLinkScript></trackingLinkScript> <!--  typeID of the capacitor charges to use -->
+  <sensorBoosterScript></sensorBoosterScript> <!--  typeID of the capacitor charges to use -->
+  <sensorDampenerScript></sensorDampenerScript> <!--  typeID of the capacitor charges to use -->
+  <ancillaryShieldBoosterScript></ancillaryShieldBoosterScript> <!--  typeID of the capacitor charges to use -->
+  <capacitorInjectorScript></capacitorInjectorScript> <!--  typeID of the capacitor charges to use -->
+  <capacitorInjectorToLoad>0</capacitorInjectorToLoad>   <!-- Amount of cap booster you want to carry with you, when using a cap injector in fitting-->
+    
+  <characterToAcceptInvitesFrom></characterToAcceptInvitesFrom>
+  <keepWeaponsGrouped>false</keepWeaponsGrouped>
+  <defaultDamageType>EM</defaultDamageType>
+  
+  <maximumHighValueTargets>4</maximumHighValueTargets><!-- default is 4 --> <!-- Maximum number of targets per value -->
+  <maximumLowValueTargets>3</maximumLowValueTargets><!-- default is 3 -->
+  <killSentries>false</killSentries>
+
+  <!-- OVERLOAD SETTINGS -->
+  <allowOverloadOfWeapons>false</allowOverloadOfWeapons>
+  <weaponOverloadDamageAllowed>60</weaponOverloadDamageAllowed>
+  <allowOverloadOfEcm>false</allowOverloadOfEcm>
+  <ecmOverloadDamageAllowed>30</ecmOverloadDamageAllowed>
+  <allowOverloadOfSpeedMod>false</allowOverloadOfSpeedMod>
+  <speedModOverloadDamageAllowed>30</speedModOverloadDamageAllowed>
+  <allowOverloadOfWebs>false</allowOverloadOfWebs>
+  <webOverloadDamageAllowed>30</webOverloadDamageAllowed>
+  <allowOverLoadOfReps>true</allowOverLoadOfReps> 
+  <repsOverloadDamageAllowed>50</repsOverloadDamageAllowed>
+  
+  
+  <overloadRepairModulesAtThisPerc>45</overloadRepairModulesAtThisPerc>
+  <overloadHardenerModulesAtThisPerc>50</overloadHardenerModulesAtThisPerc>
+  
+  <!-- Abyssal Overload Settings -->
+  <heatDamageMaximum_RepairModule>50</heatDamageMaximum_RepairModule>
+  <heatDamageMaximum_Hardener>50</heatDamageMaximum_Hardener>
+  <heatDamageMaximum_Propmod>50</heatDamageMaximum_Propmod>
+  
+  <allowOverloadOfSpeedMod>true</allowOverloadOfSpeedMod>
+  <allowOverLoadOfReps>true </allowOverLoadOfReps> 
+  <allowOverLoadOfHardeners>true</allowOverLoadOfHardeners> 
+  
+  <!-- MOVEMENT SETTINGS -->
+  <allowDefenseToUseSpeedMod>true</allowDefenseToUseSpeedMod>
+  <avoidBumpingThings>true</avoidBumpingThings> <!-- in missions while moving and when traveling attempt to avoid being too close to certain objects by orbiting those objects to get way from them if needed -->
+  <speedTank>true</speedTank> <!-- When SpeedTank is enabled, Combat-module will try to orbit ships at orbitDistance -->
+  <orbitDistance>5000</orbitDistance> <!-- The range used by SpeedTank -->
+  <orbitStructure>false</orbitStructure> <!--  When SpeedTank is true this optional setting allows you to orbit the gate rather than the target -->
+  <minimumPropulsionModuleDistance>1000</minimumPropulsionModuleDistance> <!-- Propulsion mod settings, do not activate AB/MWD unless these settings are matched -->
+  <minimumPropulsionModuleCapacitor>55</minimumPropulsionModuleCapacitor> <!-- if you are not speed tanking then this value is used to determine where you are 'in range' if it is set. If you want your maximum range to be 'in range' leave this at 0: if you are in a gunboat you probably want this set to your optimal range-->
+  
+  <useDockBookmarks>true</useDockBookmarks>
+  <stationDockBookmarkPrefix>instadock</stationDockBookmarkPrefix>
+  <createDockBookmarksAsNeeded>false</createDockBookmarksAsNeeded>
+  
+  <useUndockBookmarks>true</useUndockBookmarks>
+  <stationUndockPrefix>instaundock</stationUndockPrefix>
+  <createUndockBookmarksAsNeeded>false</createUndockBookmarksAsNeeded>
+  
+  <!-- TANK SETTINGS -->
+  <activateRepairModules>75</activateRepairModules> <!-- Activate shield booster or armor rep when shields/armor drop below this percentage -->
+  <deactivateRepairModules>95</deactivateRepairModules> <!-- Deactivate shield booster or armor rep when shields/armor are above this percentage -->
+  <injectcapperc>10</injectcapperc> <!-- Use cap injector when below this percentage -->
+  <activateAssaultDamageControlModulesAtThisPerc>30</activateAssaultDamageControlModulesAtThisPerc>
+  <dreadRepairWhileInWarp>true</dreadRepairWhileInWarp>
+  
+  <!-- PANIC SETTINGS -->
+  <ignoreSuspectTimer>false</ignoreSuspectTimer>
+  <minimumShieldPct>20</minimumShieldPct>   <!-- Minimum amount of shields before the bot panics and warps to safety -->
+  <minimumArmorPct>0</minimumArmorPct> <!-- Minimum amount of armor before the bot panics and warps to safety -->
+  <minimumCapacitorPct>13</minimumCapacitorPct> <!-- Minimum amount of capacitor before the bot panics and warps to safety -->
+  <safeShieldPct>0</safeShieldPct> <!-- Amount of shield that is seen as "safe" to return to the mission -->
+  <safeArmorPct>0</safeArmorPct> <!-- Amount of armor that is seen as "safe" to return to the mission -->
+  <safeCapacitorPct>65</safeCapacitorPct> <!-- Amount of capacitor that is seen as "safe" to return to the mission -->
+  <safeSpotBookmarkPrefix>safespot</safeSpotBookmarkPrefix><!-- default is safespot: --> <!-- All safespot bookmarks will be prefixed by this string, default: safespot: -->
+  
+  <!-- HealthCheck runs before Activating gates - if low we wait until this passes before jumping -->
+  <HealthCheckMinimumShieldPercentage>30</HealthCheckMinimumShieldPercentage>
+  <HealthCheckMinimumArmorPercentage>30</HealthCheckMinimumArmorPercentage>
+  <HealthCheckMinimumCapacitorPercentage>30</HealthCheckMinimumCapacitorPercentage>
+  
+  <!-- PRIMARYWEAPON EWAR SETTINGS -->
+  <addDampenersToPrimaryWeaponsPriorityTargetList>false</addDampenersToPrimaryWeaponsPriorityTargetList>
+  <addECMsToPrimaryWeaponsPriorityTargetList>false</addECMsToPrimaryWeaponsPriorityTargetList>
+  <addNeutralizersToPrimaryWeaponsPriorityTargetList>false</addNeutralizersToPrimaryWeaponsPriorityTargetList>
+  <addTargetPaintersToPrimaryWeaponsPriorityTargetList>false</addTargetPaintersToPrimaryWeaponsPriorityTargetList>
+  <addTrackingDisruptorsToPrimaryWeaponsPriorityTargetList>false</addTrackingDisruptorsToPrimaryWeaponsPriorityTargetList>
+  <addWarpScramblersToPrimaryWeaponsPriorityTargetList>false</addWarpScramblersToPrimaryWeaponsPriorityTargetList>
+  <addWebifiersToPrimaryWeaponsPriorityTargetList>false</addWebifiersToPrimaryWeaponsPriorityTargetList>
+  
+  <!-- DRONE SETTINGS -->
+  <useDrones>false</useDrones> <!-- Use drones, disable on ships without a drone bay! -->
+  <droneTypeId>2456</droneTypeId> <!-- Drone type id to load (set to 0 to not reload drones) -->
+  <droneControlRange>44500</droneControlRange> <!-- Maximum drone control range -->
+  <droneMinimumShieldPct>5</droneMinimumShieldPct>  <!-- Do not launch drones if below this shield percentage -->
+  <droneMinimumArmorPct>0</droneMinimumArmorPct><!-- Do not launch drones if below this armor percentage -->
+  <droneMinimumCapacitorPct>5</droneMinimumCapacitorPct> <!-- Do not launch drones if below this capacitor percentage -->
+  <droneRecallShieldPct>5</droneRecallShieldPct> <!-- Recall drones if below this shield percentage -->
+  <droneRecallArmorPct>0</droneRecallArmorPct> <!-- Recall drones if below this armor percentage -->
+  <droneRecallCapacitorPct>10</droneRecallCapacitorPct> <!-- Recall drones if below this capacitor percentage -->
+  <longRangeDroneRecallShieldPct>40</longRangeDroneRecallShieldPct> <!-- Recall drones if below this shield percentage and further away then half the drone control range -->
+  <longRangeDroneRecallArmorPct>0</longRangeDroneRecallArmorPct> <!-- Recall drones if below this armor percentage and further away then half the drone control range -->
+  <longRangeDroneRecallCapacitorPct>12</longRangeDroneRecallCapacitorPct> <!-- Recall drones if below this capacitor percentage and further away then half the drone control range -->
+  <dronesKillHighValueTargets>false</dronesKillHighValueTargets> <!-- Drones normally kill low value targets (frigates) first. If you would prefer your drones to kill high value targets first set this to true -->
+  
+  <!-- DRONE EWAR SETTINGS -->
+  <addDampenersToDronePriorityTargetList>false</addDampenersToDronePriorityTargetList>
+  <addECMsToDroneTargetList>false</addECMsToDroneTargetList>
+  <addNeutralizersToDronePriorityTargetList>false</addNeutralizersToDronePriorityTargetList>
+  <addTargetPaintersToDronePriorityTargetList>false</addTargetPaintersToDronePriorityTargetList>
+  <addTrackingDisruptorsToDronePriorityTargetList>false</addTrackingDisruptorsToDronePriorityTargetList>
+  <addWarpScramblersToDronePriorityTargetList>true</addWarpScramblersToDronePriorityTargetList>
+  <addWebifiersToDronePriorityTargetList>false</addWebifiersToDronePriorityTargetList>
+  
+  
+  <!-- FLEET SETTINGS  -->
+  <abyssalFleetMemberName1></abyssalFleetMemberName1>
+  <abyssalFleetMemberCharacterId1></abyssalFleetMemberCharacterId1> <!-- You can find this in the launcher as: "MyCharacterID" -->
+  
+  <abyssalFleetMemberName2></abyssalFleetMemberName2>
+  <abyssalFleetMemberCharacterId2></abyssalFleetMemberCharacterId2> <!-- You can find this in the launcher as: "MyCharacterID" -->
+  
+  <abyssalFleetMemberName3></abyssalFleetMemberName3>
+  <abyssalFleetMemberCharacterId3></abyssalFleetMemberCharacterId3> <!-- You can find this in the launcher as: "MyCharacterID" -->
+  
+  <!-- ABYSSAL DEADSPACE SETTINGS  -->
+  <allowBuyingItems>false</allowBuyingItems>
+  <AbyssalDeadspaceBookmarks>abyssal</AbyssalDeadspaceBookmarks> <!-- bookmark where we will travel to before activating a filament to enter abyssal deadspace -->
+  <HomeBookmark>HomeBookmark</HomeBookmark> <!-- Bookmark of a Station where we live. It should be stocked with ammo and filaments -->
+  
+  <!-- Tier 6 -->
+  <!-- <filamentTypeId>56140</filamentTypeId> --> <!-- Cataclysmic Dark Filament -T6 -->
+  <!-- <filamentTypeId>56139</filamentTypeId> --> <!-- Cataclysmic Electrical Filament -T6 -->
+  <!-- <filamentTypeId>56141</filamentTypeId> --> <!-- Cataclysmic Exotic Filament -T6 -->
+  <!-- <filamentTypeId>56142</filamentTypeId> --> <!-- Cataclysmic Firestorm Filament -T6 -->
+  <!-- <filamentTypeId>56143</filamentTypeId> --> <!-- Cataclysmic Gamma Filament -T6 -->
+  <!-- Tier 5 -->
+  <filamentTypeId>47895</filamentTypeId> <!-- Chaotic Dark Filament -T5 -->
+  <!-- <filamentTypeId>47907</filamentTypeId> --> <!-- Chaotic Electrical Filament - T5-->
+  <!-- <filamentTypeId>47891</filamentTypeId> --> <!-- Chaotic  Exotic Filament - T5-->
+  <!-- <filamentTypeId>47899</filamentTypeId> --> <!-- Chaotic Firestorm Filament -T5 -->
+  <!-- <filamentTypeId>47903</filamentTypeId> --> <!-- Chaotic Gamma Filament -T5 -->
+  <!-- Tier 4 -->
+  <!-- <filamentTypeId>47894</filamentTypeId> --> <!-- Raging Dark Filament -T4 -->
+  <!-- <filamentTypeId>47906</filamentTypeId> --> <!-- Raging Electrical Filament -T4 -->
+  <!-- <filamentTypeId>47890</filamentTypeId> --> <!-- Raging Exotic Filament -T4 -->
+  <!-- <filamentTypeId>47898</filamentTypeId> --> <!-- Raging Firestorm Filament -T4 -->
+  <!-- <filamentTypeId>47902</filamentTypeId> --> <!-- Raging Gamma Filament -T4 -->
+  <!-- Tier 3 -->
+  <!-- <filamentTypeId>47893</filamentTypeId> --> <!-- Fierce Dark Filament -T3 -->
+  <!-- <filamentTypeId>47905</filamentTypeId> --> <!-- Fierce Electrical Filament -T3 -->
+  <!-- <filamentTypeId>47889</filamentTypeId> --> <!-- Fierce Exotic Filament -T3 -->
+  <!-- <filamentTypeId>47897</filamentTypeId> --> <!-- Fierce Firestorm Filament -T3 -->
+  <!-- <filamentTypeId>47901</filamentTypeId> --> <!-- Fierce Gamma Filament -T3 -->
+  <!-- Tier 2 -->
+  <!-- <filamentTypeId>47892</filamentTypeId> --> <!-- Agitated Dark Filament -T2 -->
+  <!-- <filamentTypeId>47904</filamentTypeId> --> <!-- Agitated Electrical Filament -T2 -->
+  <!-- <filamentTypeId>47888</filamentTypeId> -->  <!-- Agitated  Exotic Filament -T2 -->
+  <!-- <filamentTypeId>47896</filamentTypeId> --> <!-- Agitated Firestorm Filament -T2 -->
+  <!-- <filamentTypeId>47900</filamentTypeId> --> <!-- Agitated Gamma Filament -T2 -->
+  <!-- Tier 1 -->
+  <!-- <filamentTypeId>47762</filamentTypeId> --> <!-- Calm Dark Filament -T1 -->
+  <!-- <filamentTypeId>47765</filamentTypeId> --> <!-- Calm Electrical Filament -T1 -->
+  <!-- <filamentTypeId>47761</filamentTypeId> --> <!-- Calm Exotic Filament -T1 -->
+  <!-- <filamentTypeId>47763</filamentTypeId> --> <!-- Calm Firestorm Filament -T1 -->
+  <!-- <filamentTypeId>47764</filamentTypeId> --> <!-- Calm Gamma Filament -T1 -->
+  <!-- Tier 0 -->
+  <!-- <filamentTypeId>56132</filamentTypeId> --> <!-- Tranquil Dark Filament -T0 -->
+  <!-- <filamentTypeId>56131</filamentTypeId> --> <!-- Tranquil Electrical Filament -T0 -->
+  <!-- <filamentTypeId>56133</filamentTypeId> --> <!-- Tranquil Exotic Filament -T0 -->
+  <!-- <filamentTypeId>56134</filamentTypeId> --> <!-- Tranquil Firestorm Filament -T0 -->
+  <!-- <filamentTypeId>56136</filamentTypeId> --> <!-- Tranquil Gamma Filament -T0 -->
+  
+  <!-- <heavyDroneTypeId>31876</heavyDroneTypeId> --> <!-- Caldari Navy Wasp -->
+  <!-- <mediumDroneTypeId>31874</mediumDroneTypeId> --> <!-- Caldari Navy Vespa -->
+  <!-- <smallDroneTypeId>31872</smallDroneTypeId> --> <!-- Caldari Navy Hornet -->
+  
+  <heavyDroneTypeId>2436</heavyDroneTypeId> <!-- Wasp II -->
+  <mediumDroneTypeId>21638</mediumDroneTypeId> <!-- Vespa II -->
+  <smallDroneTypeId>2466</smallDroneTypeId> <!-- Hornet II -->
+
+  <mtuTypeId>33702</mtuTypeId> <!-- 'Magpie' Mobile Tractor Unit  - 1500m/s, T1 is 1000, packrat is 1250 m/s -->
+  <surveyDumpBookmarkName>surveys</surveyDumpBookmarkName>
+  <OverThisSurveyValueGoSell>200000000</OverThisSurveyValueGoSell> <!-- Default is 200000000 or 200mil -->
+  
+  <!-- FACTION BLACKLIST SETTINGS  -->
+  <factionblacklist> <!-- List of factions which the bot will try to avoid -->
+	<faction>Caldari State</faction>
+	<faction>Gallente Federation</faction>
+    <faction>Minmatar Republic</faction>
+    <faction>Amarr Empire</faction>
+    <faction>CONCORD Assembly</faction>
+    <faction>Ammatar Mandate</faction>
+    <faction>Khanid Kingdom</faction>
+    <faction>Thukker Tribe</faction>
+  </factionblacklist>
+  
+  <blacklist> <!-- BLACKLIST: List of missions which the bot will always decline -->
+    <mission>Mysterious Sightings (2 of 4)</mission>
+	<mission>Mysterious Sightings (3 of 4)</mission>
+	<mission>Cargo Delivery</mission> <!-- lvl1 gets stuck for some reason - bug in questor --> 
+	<mission>Mission of Mercy</mission>
+    <mission>A Special Delivery</mission> <!-- requires 40k m3 -->
+    <mission>The Assault</mission>
+	<mission>Worlds Collide</mission>
+    <mission>The Blockade</mission> <!--  http://eve-survival.org/wikka.php?wakka=Blockade4an -->
+	<mission>Soothe the Salvage Beast</mission> <!-- needs MWD to complete in any decent amount of time: http://eve-survival.org/wikka.php?wakka=SootheTheSalvageBeast4  -->
+	<mission>The Mouthy Merc</mission>
+	<mission>The Anomaly (1 of 3)</mission> <!--  http://eve-survival.org/wikka.php?wakka=Anomaly4 -->
+	<mission>Pot and Kettle (1 of 3)</mission> <!--  Standings loss with Amarr:  http://eve-survival.org/wikka.php?wakka=PotandKettle4 -->
+	<mission>Are You Receiving? (1 of 3)</mission> <!-- Mission Item 1800m3, need logic to get in hauler and go back & loot -->
+	<mission>Enemies Abound (1 of 5)</mission> 
+	<!-- <mission>The Rogue Slave Trader (1 of 2)</mission> -->
+	<mission>The Anomaly (1 of 3)</mission> 
+	<mission>Fire and Ice</mission> 
+	<mission>Mysterious Sightings (2 of 4)</mission> <!-- courier mission -->
+	<mission>Under Suspicion</mission> <!-- requires a salvage action -->
+	<mission>Black Ops Crisis</mission> 
+	<mission>Hunting Black Dog</mission> 
+	<mission>A Desperate Rescue</mission> 
+	<mission>Anomic Agent</mission> <!-- burner -->
+	<mission>Anomic Base</mission> <!-- burner -->
+	<mission>Anomic Team</mission> <!-- burner -->
+	<mission>After The Seven (4 of 5) Ruse</mission>
+    <mission>Onslaught</mission> <!-- http://eve-survival.org/wikka.php?wakka=Onslaught1 -->
+	<mission>After The Seven (4 of 5)</mission> <!-- needs to use a shuttle instead of your normal ship -->
+	<mission>Are You Receiving (3 of 3)</mission> <!-- needs to pickup 1800m3 in loot  http://eve-survival.org/wikka.php?wakka=AreYouReceiving4am -->
+	<mission>Enemies Abound (1 of 5)</mission>
+	<mission>Technological Secrets (2 of 3)</mission>
+	<!-- <mission>Guristas Extravaganza</mission> -->
+	<mission>Codename  Redress</mission><!-- Minmatar -->
+	<mission>Convoy Attack</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>Crush The Sebiestor Station</mission><!-- Minmatar -->
+	<mission>Dark Alliance</mission><!-- Minmatar -->
+	<mission>Deadly Arrival</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>Dirty Job</mission><!-- Minmatar -->
+	<mission>Driving A Wedge</mission><!-- Gallente/Minmatar -->
+	<mission>Escaped Dissident</mission><!-- Minmatar -->
+	<mission>Escaped Killer</mission><!-- Minmatar -->
+	<mission>Escaped Spy</mission><!-- Minmatar -->
+	<mission>Foil The Military Preparations</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>Freedom Must Not Prevail</mission><!-- Minmatar -->
+	<mission>Halt the Invasion</mission><!-- Amarr/Minmatar -->
+	<mission>Hidden Enemy Base</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>Interstellar Railroad</mission><!-- Minmatar -->
+	<mission>Letters from Dalamaid</mission><!-- Minmatar -->
+	<mission>Minmatar Plot</mission><!-- Amarr/Gallente/Minmatar -->
+	<mission>The Missing Reporters - Caldari Smugglers (1 of 3)</mission><!-- Caldari -->
+	<mission>New Slaves</mission><!-- Minmatar -->
+	<!-- <mission>Patient Zero</mission> --> <!-- Rogue Drones (but effects Gallente standing) -->
+	<mission>Pick Your Poison</mission><!-- Amarr/Minmatar -->
+	<mission>Portal to War (2 of 5)</mission>
+	<mission>Pirate Business</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>Pirate Radio</mission><!-- Minmatar -->
+	<mission>Revenge Attack</mission><!-- Minmatar -->
+	<mission>Shades of Grey</mission><!-- Minmatar -->
+	<mission>Surprise Surprise</mission><!-- Amarr/Caldari/Minmatar/Gallente -->
+	<mission>The Fortress</mission><!-- Amarr/Caldari/Gallente/Minmatar -->
+	<mission>The Fox Hunt</mission><!-- Minmatar -->
+	<mission>The Heirs Favorite Slave</mission><!-- Minmatar -->
+	<mission>The Slaves Must Be Returned</mission><!-- Minmatar -->
+	<mission>Threat from Afar</mission><!-- Minmatar -->
+	<mission>Trespassers</mission><!-- Minmatar -->
+	<mission>Warlord Strikes</mission><!-- Minmatar -->
+	<mission>Survey Rendevous</mission> <!-- lvl2 needs analyzer - takes too long -->
+  </blacklist>
+  
+  
+  <greylist> <!-- GREYLIST: List of missions which the bot will decline until standings drop below MinAgentGreyListStandings-->
+    <mission>Attack of the Drones</mission>
+    <mission>Guristas Extravaganza</mission>
+    <mission>Infiltrated Outposts</mission>
+    <mission>Intercept the Saboteurs</mission>
+    <mission>Onslaught</mission>
+    <mission>Pick your Poison</mission>
+    <!-- <mission>Recon (1 of 3)</mission> -->
+    <mission>Rogue Drone Harrassment</mission>
+    <mission>Technological Secrets (1 of 3)</mission>
+    <mission>The Guristas Spies</mission>
+	<mission>Worlds Collide</mission>
+	<mission>Buzz Kill</mission>
+  </greylist>
+  
+  <!--                                                       --> 
+  <!--  HighSecAnomalyController Settings --> 
+  <!--                                                       --> 
+  
+  <!-- /If true we will not start by allowing all anomlies: we only allow anomalies on the whitelist: if false we have all anoms on the allow list unless they are specifically blacklisted -->
+  <useAnomalyWhitelistOnly>true</useAnomalyWhitelistOnly> 
+  
+  <!-- See: [ https://wiki.eveuniversity.org/Combat_sites#anomalies  ] for more info  -->
+  <!-- WhiteList: List of anomalies which the bot will do if UseWhitelistOnly is true -->
+  <!--                                                                                                      -->
+  <!--  Any Anomalies you do not want to allow can be removed from this list -->
+  <!--                                                                                                      -->
+  <anomalyWhitelist> 
+    <!-- Angel Cartel Anomalies  -->
+	<!-- Angel Anomalies: Class 1  -->
+	<anomaly>Angel Hideaway</anomaly>
+	<anomaly>Angel Hidden Hideaway</anomaly>
+	<anomaly>Angel Forsaken Hideaway</anomaly>
+	<anomaly>Angel Forlorn Hideaway</anomaly>
+	<!-- Angel Anomalies: Class 2  -->
+	<anomaly>Angel Burrow</anomaly>
+	<!-- Angel Anomalies: Class 3  -->
+	<anomaly>Angel Refuge</anomaly>
+	<!-- Angel Anomalies: Class 4  -->
+	<anomaly>Angel Den</anomaly>
+	<anomaly>Angel Hidden Den</anomaly>
+	<anomaly>Angel Forsaken Den</anomaly>
+	<anomaly>Angel Forlorn Den</anomaly>
+	<!-- Angel Anomalies: Class 5  -->
+	<anomaly>Angel Yard</anomaly>
+	<!-- Angel Anomalies: Class 6  -->
+	<anomaly>Angel Rally Point</anomaly>
+	<anomaly>Angel Hidden Rally Point</anomaly>
+	<anomaly>Angel Forsaken Rally Point</anomaly>
+	<anomaly>Angel Forlorn Rally Point</anomaly>
+	<!-- Angel Anomalies: Class 7  -->
+	<anomaly>Angel Port</anomaly>
+	<!-- Angel Anomalies: Class 8  -->
+	<anomaly>Angel Hub</anomaly>
+	<anomaly>Angel Hidden Hub</anomaly>
+	<anomaly>Angel Forsaken Hub</anomaly>
+	<anomaly>Angel Forlorn Hub</anomaly>
+	<!-- Angel Anomalies: Class 9  -->
+	<anomaly>Angel Haven</anomaly>
+	<!-- Angel Anomalies: Class 10  -->
+	<anomaly>Angel Sanctum</anomaly>
+	
+	<!-- Blood Raider Anomalies  -->
+	<!-- Blood Anomalies: Class 1  -->
+	<anomaly>Blood Hideaway</anomaly>
+	<anomaly>Blood Hidden Hideaway</anomaly>
+	<anomaly>Blood Forsaken Hideaway</anomaly>
+	<anomaly>Blood Forlorn Hideaway</anomaly>
+	<!-- Blood Anomalies: Class 2  -->
+	<anomaly>Blood Burrow</anomaly>
+	<!-- Blood Anomalies: Class 3  -->
+	<anomaly>Blood Refuge</anomaly>
+	<!-- Blood Anomalies: Class 4  -->
+	<anomaly>Blood Den</anomaly>
+	<anomaly>Blood Hidden Den</anomaly>
+	<anomaly>Blood Forsaken Den</anomaly>
+	<anomaly>Blood Forlorn Den</anomaly>
+	<!-- Blood Anomalies: Class 5  -->
+	<anomaly>Blood Yard</anomaly>
+	<!-- Blood Anomalies: Class 6  -->
+	<anomaly>Blood Rally Point</anomaly>
+	<anomaly>Blood Hidden Rally Point</anomaly>
+	<anomaly>Blood Forsaken Rally Point</anomaly>
+	<anomaly>Blood Forlorn Rally Point</anomaly>
+	<!-- Blood Anomalies: Class 7  -->
+	<anomaly>Blood Port</anomaly>
+	<!-- Blood Anomalies: Class 8  -->
+	<anomaly>Blood Hub</anomaly>
+	<anomaly>Blood Hidden Hub</anomaly>
+	<anomaly>Blood Forsaken Hub</anomaly>
+	<anomaly>Blood Forlorn Hub</anomaly>
+	<!-- Blood Anomalies: Class 9  -->
+	<anomaly>Blood Haven</anomaly>
+	<!-- Blood Anomalies: Class 10  -->
+	<anomaly>Blood Sanctum</anomaly>
+	
+	<!-- Drone Anomalies  -->
+	<!-- Drone Anomalies: Class 1  -->
+	<anomaly>Drone Cluster</anomaly>
+	<!-- Drone Anomalies: Class 2  -->
+	<anomaly>Drone Collection</anomaly>
+	<!-- Drone Anomalies: Class 3  -->
+	<anomaly>Drone Assembly</anomaly>
+	<!-- Drone Anomalies: Class 4  -->
+	<anomaly>Drone Gathering</anomaly>
+	<!-- Drone Anomalies: Class 5  -->
+	<anomaly>Drone Surveillance</anomaly>
+	<!-- Drone Anomalies: Class 6  -->
+	<anomaly>Drone Menagerie</anomaly>
+	<!-- Drone Anomalies: Class 7  -->
+	<anomaly>Drone Herd</anomaly>
+	<!-- Drone Anomalies: Class 8  -->
+	<anomaly>Drone Squad</anomaly>
+	<!-- Drone Anomalies: Class 9  -->
+	<anomaly>Drone Patrol</anomaly>
+	<!-- Drone Anomalies: Class 10  -->
+	<anomaly>Drone Horde</anomaly>
+	<!-- Guristas Anomalies  -->
+	<!-- Guristas Anomalies: Class 1  -->
+	<anomaly>Guristas Hideaway</anomaly> 
+	<anomaly>Guristas Hidden Hideaway</anomaly> 
+	<anomaly>Guristas Forsaken Hideaway</anomaly> 
+	<anomaly>Guristas Forlorn Hideaway</anomaly> 
+	<!-- Guristas Anomalies: Class 2  -->
+	<anomaly>Guristas Burrow</anomaly> 
+	<!-- Guristas Anomalies: Class 3  -->
+	<anomaly>Guristas Refuge</anomaly> 
+	<!-- Guristas Anomalies: Class 4  -->
+	<anomaly>Guristas Den</anomaly> 
+	<anomaly>Guristas Hidden Den</anomaly> 
+	<anomaly>Guristas Forsaken Den</anomaly> 
+	<anomaly>Guristas Forlorn Den</anomaly> 
+	<!-- Guristas Anomalies: Class 5  -->
+	<anomaly>Guristas Yard</anomaly> 
+	<!-- Guristas Anomalies: Class 6  -->
+	<anomaly>Guristas Rally Point</anomaly> 
+	<anomaly>Guristas Hidden Rally Point</anomaly> 
+	<anomaly>Guristas Forsaken Rally Point</anomaly> 
+	<anomaly>Guristas Forlorn Rally Point</anomaly> 
+	<!-- Guristas Anomalies: Class 7  -->
+	<anomaly>Guristas Port</anomaly> 
+	<!-- Guristas Anomalies: Class 8  -->
+	<anomaly>Guristas Hub</anomaly> 
+	<anomaly>Guristas Hidden Hub</anomaly> 
+	<anomaly>Guristas Forsaken Hub</anomaly> 
+	<anomaly>Guristas Forlorn Hub</anomaly> 
+	<!-- Guristas Anomalies: Class 9  -->
+	<anomaly>Guristas Haven</anomaly> 
+	<!-- Guristas Anomalies: Class 10  -->
+	<anomaly>Guristas Sanctum</anomaly> 
+	
+	<!-- Sansha Anomalies  -->
+	<!-- Sansha Anomalies: Class 1  -->
+	<anomaly>Sansha Hideaway</anomaly>
+	<anomaly>Sansha Hidden Hideaway</anomaly>
+	<anomaly>Sansha Forsaken Hideaway</anomaly>
+	<anomaly>Sansha Forlorn Hideaway</anomaly>
+	<!-- Sansha Anomalies: Class 2  -->
+	<anomaly>Sansha Burrow</anomaly>
+	<!-- Sansha Anomalies: Class 3  -->
+	<anomaly>Sansha Refuge</anomaly>
+	<!-- Sansha Anomalies: Class 4  -->
+	<anomaly>Sansha Den</anomaly>
+	<anomaly>Sansha Hidden Den</anomaly>
+	<anomaly>Sansha Forsaken Den</anomaly>
+	<anomaly>Sansha Forlorn Den</anomaly>
+	<!-- Sansha Anomalies: Class 5  -->
+	<anomaly>Sansha Yard</anomaly>
+	<!-- Sansha Anomalies: Class 6  -->
+	<anomaly>Sansha Rally Point</anomaly>
+	<anomaly>Sansha Hidden Rally Point</anomaly>
+	<anomaly>Sansha Forsaken Rally Point</anomaly>
+	<anomaly>Sansha Forlorn Rally Point</anomaly>
+	<!-- Sansha Anomalies: Class 7  -->
+	<anomaly>Sansha Port</anomaly>
+	<!-- Sansha Anomalies: Class 8  -->
+	<anomaly>Sansha Hub</anomaly>
+	<anomaly>Sansha Hidden Hub</anomaly>
+	<anomaly>Sansha Forsaken Hub</anomaly>
+	<anomaly>Sansha Forlorn Hub</anomaly>
+	<!-- Sansha Anomalies: Class 9  -->
+	<anomaly>Sansha Haven</anomaly>
+	<!-- Sansha Anomalies: Class 10  -->
+	<anomaly>Sansha Sanctum</anomaly>
+	
+	<!-- Serpentis Anomalies  -->
+	
+	<!-- Serpentis Anomalies: Class 1  -->
+	<anomaly>Serpentis Hideaway</anomaly>
+	<anomaly>Serpentis Hidden Hideaway</anomaly>
+	<anomaly>Serpentis Forsaken Hideaway</anomaly>
+	<anomaly>Serpentis Forlorn Hideaway</anomaly>
+	<!-- Serpentis Anomalies: Class 2  -->
+	<anomaly>Serpentis Burrow</anomaly>
+	<!-- Serpentis Anomalies: Class 3  -->
+	<anomaly>Serpentis Refuge</anomaly>
+	<!-- Serpentis Anomalies: Class 4  -->
+	<anomaly>Serpentis Den</anomaly>
+	<anomaly>Serpentis Hidden Den</anomaly>
+	<anomaly>Serpentis Forsaken Den</anomaly>
+	<anomaly>Serpentis Forlorn Den</anomaly>
+	<!-- Serpentis Anomalies: Class 5  -->
+	<anomaly>Serpentis Yard</anomaly>
+	<!-- Serpentis Anomalies: Class 6  -->
+	<anomaly>Serpentis Rally Point</anomaly>
+	<anomaly>Serpentis Hidden Rally Point</anomaly>
+	<anomaly>Serpentis Forsaken Rally Point</anomaly>
+	<anomaly>Serpentis Forlorn Rally Point</anomaly>
+	<!-- Serpentis Anomalies: Class 7  -->
+	<anomaly>Serpentis Port</anomaly>
+	<!-- Serpentis Anomalies: Class 8  -->
+	<anomaly>Serpentis Hub</anomaly>
+	<anomaly>Serpentis Hidden Hub</anomaly>
+	<anomaly>Serpentis Forsaken Hub</anomaly>
+	<anomaly>Serpentis Forlorn Hub</anomaly>
+	<!-- Serpentis Anomalies: Class 9  -->
+	<anomaly>Serpentis Haven</anomaly>
+	<!-- Serpentis Anomalies: Class 10  -->
+	<anomaly>Serpentis Sanctum</anomaly>
+  </anomalyWhitelist>
+  
+  <anomalyBlacklist> <!-- BLACKLIST: List of missions which the bot will always decline -->
+    <!-- <anomaly>Guristas Hideaway</anomaly> -->
+	<!-- <anomaly>Drone Cluster</anomaly> -->
+  </anomalyBlacklist>
+  
+  <objectivePhraseBlacklist> <!-- BLACKLIST: List of phrases in the misison objective that will cause us to decline the mission -->
+	<!-- <phraseToNotAllow></phraseToNotAllow> -->
+  </objectivePhraseBlacklist>
+  
+  
+  <!-- BuyAmmo/BuyPlex -->
+  <buyLpItems>false</buyLpItems>
+  <buyPlex>false</buyPlex>
+  <buyAmmo>true</buyAmmo>
+  <buyAmmoStationID>60003760</buyAmmoStationID> <!-- Jita(60003760), Rens (60004588), Amarr (60008494) -->
+  <buyAmmoDroneAmount>50</buyAmmoDroneAmount>
+</settings>

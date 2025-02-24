@@ -1,0 +1,132 @@
+Caldari Destroyer I
+Caldari Destroyer II
+Caldari Destroyer III
+Caldari Cruiser I
+Caldari Cruiser II
+Caldari Cruiser III
+Caldari Battlecruiser I
+Caldari Battlecruiser II
+Energy Grid Upgrades II
+Weapon Upgrades III
+Weapon Upgrades IV
+Tactical Shield Manipulation III
+Tactical Shield Manipulation IV
+Shield Upgrades III
+Shield Upgrades IV
+Afterburner IV
+Missile Launcher Operation II
+Missile Launcher Operation III
+Light Missiles I
+Light Missiles II
+Light Missiles III
+Heavy Missiles I
+Drones II
+Drones III
+Light Drone Operation I
+Target Management III
+Signature Analysis II
+Signature Analysis III
+Gravimetric Sensor Compensation I
+Gravimetric Sensor Compensation II
+Gravimetric Sensor Compensation III
+Caldari Battlecruiser III
+Social I
+Social II
+Social III
+Social IV
+Social V
+Leadership I
+Leadership II
+Leadership III
+Security Connections I
+Security Connections II
+Security Connections III
+Security Connections IV
+Negotiation I
+Negotiation II
+Negotiation III
+Negotiation IV
+Connections I
+Connections II
+Connections III
+Connections IV
+Shield Management III
+Shield Management IV
+Shield Operation IV
+Shield Compensation I
+Shield Compensation II
+Shield Compensation III
+Shield Compensation IV
+Mechanics III
+Jury Rigging I
+Jury Rigging II
+Jury Rigging III
+Shield Rigging I
+Shield Rigging II
+Shield Rigging III
+Launcher Rigging I
+Launcher Rigging II
+Launcher Rigging III
+Cybernetics II
+Cybernetics III
+Warp Drive Operation II
+Warp Drive Operation III
+Navigation IV
+High Speed Maneuvering II
+High Speed Maneuvering III
+Fuel Conservation I
+Fuel Conservation II
+Fuel Conservation III
+Evasive Maneuvering II
+Evasive Maneuvering III
+Acceleration Control II
+Acceleration Control III
+Missile Launcher Operation IV
+Warhead Upgrades I
+Warhead Upgrades II
+Warhead Upgrades III
+Target Navigation Prediction I
+Target Navigation Prediction II
+Target Navigation Prediction III
+Rapid Launch I
+Rapid Launch II
+Rapid Launch III
+Missile Projection I
+Missile Projection II
+Missile Projection III
+Missile Launcher Operation V
+Missile Bombardment I
+Missile Bombardment II
+Missile Bombardment III
+Guided Missile Precision I
+Guided Missile Precision II
+Guided Missile Precision III
+Energy Grid Upgrades III
+Capacitor Systems Operation IV
+Capacitor Management IV
+Target Painting I
+Target Painting II
+Target Painting III
+Drones IV
+Drones V
+Drone Durability I
+Drone Durability II
+Drone Durability III
+Drone Avionics II
+Drone Avionics III
+Drone Avionics IV
+Drone Interfacing I
+Drone Interfacing II
+Drone Interfacing III
+Drone Navigation I
+Drone Navigation II
+Drone Navigation III
+Drone Sharpshooting I
+Drone Sharpshooting II
+Drone Sharpshooting III
+Mechanics IV
+Hull Upgrades III
+Hull Upgrades IV
+Caldari Industrial II
+Caldari Industrial III
+Caldari Industrial IV

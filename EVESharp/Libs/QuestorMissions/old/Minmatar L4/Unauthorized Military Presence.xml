@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <trytobring>Militants</trytobring> 
+  <trytobringquantity>10</trytobringquantity>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+		<action name="MoveToBackground">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+		<action name="MoveToBackground">
+          <parameter name="Target" value="Angel Cartel Personnel Transport" />
+        </action>
+		<!-- kill group 3 : http://eve-survival.org/wikka.php?wakka=UnauthorizedMilitaryPresence4an --> 
+        <action name="ClearPocket" />
+		<action name="LootItem">
+        <parameter name="Item" value="Militants"></parameter>
+        <parameter name="Target" value="Angel Cartel Personnel Transport Wreck"></parameter>
+        <parameter name="Quantity" value="10"></parameter>
+        </action>
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="15"/>
+        </action>
+		<action name="LootItem"> 
+        <parameter name="Item" value="Militants"></parameter>
+        <parameter name="Target" value="Angel Cartel Personnel Transport Wreck"></parameter>
+        <parameter name="Quantity" value="10"></parameter>
+      </action>
+	  
+        <!-- <action name="LootItem"> --> <!-- if you remove this you need militants back at the station -->
+          <!-- <parameter name="Target" value="Angel Cartel Personnel Transport Wreck"/> -->
+          <!-- <parameter name="target" value="Blood Raider Personnel Transport Wreck" /> -->
+          <!-- <parameter name="Target" value="Serpentis Personnel Transport Wreck"/> -->
+          <!-- <parameter name="Target" value="Guristas Personnel Transport Wreck"/> -->
+          <!-- <parameter name="Item" value="Militants" /> -->
+        <!-- </action> -->
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

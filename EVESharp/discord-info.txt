@@ -1,0 +1,6 @@
+For the longest time we used IRC to communicate. 
+It would appear the Lavishsoft IRC server is getting used less and less. 
+
+It was proposed that we use WhatsApp, Im not certain why.
+I would prefer communication to be an an IRC style: room based, text based, and semi-anonymous
+Discord link: https://discord.gg/fNSjwfY

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+<trytobring>Recovered Data Core</trytobring>
+<trytobringquantity>3</trytobringquantity>
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recovered Data Core" />
+                    <parameter name="quantity" value="1" />
+        </action>
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recovered Data Core"/>
+          <parameter name="quantity" value="1" />
+        </action>
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recovered Data Core"/>
+          <parameter name="quantity" value="1" />
+        </action>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="60" />
+        </action>
+        <action name="ClearPocket" />		
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

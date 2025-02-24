@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+	    <action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+          <parameter name="Timeout" value="15"></parameter>
+        </action>
+	    <action name="ClearPocket" />
+		<action name="ClearPocket" />
+		<action name="LootItem">
+          <parameter name="Item" value="Secret Documents" />
+		  <parameter name="Target" value="Cargo Container" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

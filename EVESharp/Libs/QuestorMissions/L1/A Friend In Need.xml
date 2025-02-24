@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+	    <action name="AggroOnly">
+          <parameter name="Target" value="Damaged Vessel" />
+        </action>
+		<action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<missions>
+  <pockets>
+    <pocket id="0">
+       
+      <actions>
+        <action name="Kill">
+          <parameter name="Target" value="Phenod" />
+        </action>
+        <action name="LootItem">
+          <parameter name="Item" value="Phenod's DNA" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</missions>

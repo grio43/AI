@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<missions>
+  <pockets>
+    <pocket id="0">
+      <damagetype>EM</damagetype>
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recovered Data Core" />
+        </action>
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recoverd Data Core" />
+        </action>
+        <action name="LootItem">
+          <parameter name="Target" value="Science Vessel Wreck" />
+          <parameter name="Item" value="Recoverd Data Core" />
+        </action>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="60" />
+        </action>
+        <action name="ClearPocket" />		
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</missions>

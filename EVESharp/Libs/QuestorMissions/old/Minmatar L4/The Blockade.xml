@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <missionWarpAtDistanceRange>60</missionWarpAtDistanceRange>
+    <pocket id="0">
+      <actions>
+		<!-- wave 0 -->
+		<action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="30"/>
+        </action>
+		<!-- wave 1 -->
+		<action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="30"/>
+        </action>
+		<!-- wave 2 -->
+		<action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="30"/>
+        </action>
+		<!-- wave 3 -->
+		<action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="30"/>
+        </action>
+		<!-- wave 4 -->
+		<action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="30"/>
+		</action>
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

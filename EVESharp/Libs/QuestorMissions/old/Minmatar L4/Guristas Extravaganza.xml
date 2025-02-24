@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <!-- <bring>Guristas Diamond Tag</bring> -->
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+	  <!-- This ignores the frigates and cruisers so we can kill the sentries first -->
+	  <action name="Ignore">
+          <parameter name="Add" value="Pithi Plunderer" />
+		  <parameter name="Add" value="Pithi Wrecker" />
+		  <parameter name="Add" value="Pithi Silencer" />
+		  <parameter name="Add" value="Pithi Ascriber" />
+      </action>
+	  <action name="ClearPocket" />
+	  <!-- Now kill the frigates and cruisers  -->
+	  <action name="Ignore">
+          <parameter name="Remove" value="Pithi Plunderer" />
+		  <parameter name="Remove" value="Pithi Wrecker" />
+		  <parameter name="Remove" value="Pithi Silencer" />
+		  <parameter name="Remove" value="Pithi Ascriber" />
+      </action>
+	  <action name="ClearPocket" />
+	  <action name="Loot"/>
+        
+    </pocket>
+	<pocket id="1">
+      <damagetype>Kinetic</damagetype>
+	  <action name="Ignore">
+          <parameter name="Add" value="Pithatis Death Dealer" />
+		  <parameter name="Add" value="Pithatis Assasin" />
+		  <parameter name="Add" value="Pith Exterminator" />
+		  <parameter name="Add" value="Guristas Webifier" />
+      </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Ion Field Projection Battery" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Moon Harvester" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Ignore">
+          <parameter name="Remove" value="Pithatis Death Dealer" />
+		  <parameter name="Remove" value="Pithatis Assasin" />
+		  <parameter name="Remove" value="Pith Exterminator" />
+		  <parameter name="Remove" value="Guristas Webifier" />
+      </action>
+	  <action name="ClearPocket" />
+	  <action name="Loot"/>
+        
+    </pocket>
+	<pocket id="2">
+      <damagetype>Kinetic</damagetype>
+	  <action name="Ignore">
+        <parameter name="Add" value="Guristas Kyoukan" />
+      </action>
+	  <action name="ClearPocket" />
+	  <action name="Kill">
+          <parameter name="Target" value="Guristas Medium Refinery" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Subspace Frequency Generator" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Asteroid Mining Post" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Ignore">
+          <parameter name="Remove" value="Guristas Kyoukan" />
+      </action>
+	  <action name="ClearPocket" />
+	  <action name="Loot"/>
+    </pocket>
+	<pocket id="3">
+      <damagetype>Kinetic</damagetype>
+        <action name="Ignore">
+        <parameter name="Add" value="Pith Eradicator" />
+		<parameter name="Add" value="Pith Obliterator" />
+		<parameter name="Add" value="Guristas Webifier" />
+		<parameter name="Add" value="Guristas Kyoukan" />
+        </action>
+	  <action name="ClearPocket" />
+	  <action name="Ignore">
+        <parameter name="Remove" value="Pith Eradicator" />
+		<parameter name="Remove" value="Pith Obliterator" />
+        </action>
+        <action name="ClearPocket" />
+	  <action name="Kill">
+          <parameter name="Target" value="Guristas Starbase Control Tower" />
+          <parameter name="BreakOnAttackers" value="False" />
+        </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Starbase Storage Facility" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Kill">
+          <parameter name="Target" value="Starbase Reactor Array" />
+          <parameter name="BreakOnAttackers" value="False" />
+      </action>
+	  <action name="Ignore">
+        <parameter name="Remove" value="Guristas Webifier" />
+		<parameter name="Remove" value="Guristas Kyoukan" />
+      </action>
+	  <action name="ClearPocket" />
+	  <action name="Loot"/>
+    </pocket>
+	<pocket id="4">
+      <damagetype>Kinetic</damagetype>
+		<actions>
+			<action name="ClearPocket" />
+			<action name="Loot"/>
+      </actions>
+    </pocket>
+    <pocket id="5">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+        <action name="Ignore">
+          <parameter name="Add" value="Guristas War Installation" />
+		  <parameter name="Add" value="Guristas Webifier" /> 
+		  <parameter name="Add" value="Guristas Kyoukan" />
+		</action>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="15" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Tower Sentry Guristas II" />
+          <parameter name="BreakOnAttackers" value="False" />
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Tower Sentry Guristas II" />
+          <parameter name="BreakOnAttackers" value="False" />
+		</action>
+        <action name="ClearPocket" />
+		<action name="Ignore">
+          <parameter name="Remove" value="Guristas Webifier" />
+		  <parameter name="Remove" value="Guristas Kyoukan" /> 		  
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Guristas Webifier" />
+          <parameter name="BreakOnAttackers" value="False" />
+		</action>
+        <action name="Kill">
+          <parameter name="Target" value="Guristas Kyoukan" />
+          <parameter name="BreakOnAttackers" value="False" />
+        </action>
+        <action name="Loot" />
+        
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<missions>
+  <bring>Quantum Entanglement</bring>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+        <action name="DropItem">
+          <parameter name="Item" value="Quantum Entanglement" />
+          <parameter name="Target" value="Observation Deck" />
+          <parameter name="Quantity" value="1" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="2">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+        <action name="ClearPocket" />
+        <action name="LootItem">
+          <parameter name="Item" value="Quantum Entanglement" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</missions>

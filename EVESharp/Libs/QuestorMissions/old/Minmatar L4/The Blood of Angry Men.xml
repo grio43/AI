@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+	  <!-- Recommended damage dealing: EM/Thermal for ammar EXP/Kinetic for the minmatar bs  -->
+      <damagetype>Explosive</damagetype> <!-- kill minmatar battleship get the corpse from the can and warp out (NOTE:EXP/KIN damage are its weakest ressists) --> 
+      <actions>
+		<action name="Kill">
+		<parameter name="target" value="Rogue Minmatar" />
+		  <parameter name="BreakOnAttackers" value="False" />
+		  <parameter name="IgnoreAttackers" value="True" />
+        </action>
+		<action name="Ignore">
+          <parameter name="Clear" value="true" />
+        </action>
+		<action name="Loot">
+          <parameter name="target" value="Cargo Container" />
+          <parameter name="Item" value="Minmatar Pilot's Corpse" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+	  <actions>
+		<damagetype>EM</damagetype>
+		<action name="Kill">
+          <parameter name="Target" value="Centus Tyrant" />
+          <parameter name="Target" value="Centus Dread Lord" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Centatis Phantasm" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Centum Loyal Torturer" />
+          <parameter name="Target" value="Centum Loyal Hellhound" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Centus Dread Lord" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Centatis Phantasm" />
+          <parameter name="Target" value="Centatis Devil" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Centus Tyrant" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
+		<action name="ClearPocket" />
+		<action name="Done" />
+	  </actions>
+	</pocket>
+  </pockets>
+</mission>

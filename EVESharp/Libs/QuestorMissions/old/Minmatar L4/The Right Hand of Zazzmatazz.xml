@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Thermal</damagetype>
+      <actions>
+	  <action name="ActivateBastion">
+       <parameter name="DeactivateAfterSeconds" value="240" /> <!-- time in seconds before we deactivate bastion mode, keep in mind they have a 60 sec cycle time -->        
+      </action>
+        <action name="Kill">
+		  <parameter name="Target" value="Zor" />
+		  <parameter name="IgnoreAttackers" value="false" />
+		</action>
+		<!-- <action name="Ignore">
+          <parameter name="Clear" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Seven Macleari" />
+		  <parameter name="IgnoreAttackers" value="True" />
+		</action>
+		<action name="Ignore">
+          <parameter name="Clear" value="true" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Seven Bodyguard" />
+		  <parameter name="Target" value="Seven Bodyguard" />
+		  <parameter name="Target" value="Seven Bodyguard" />
+		  <parameter name="IgnoreAttackers" value="True" />
+        </action>
+		<action name="Ignore">
+          <parameter name="Clear" value="true" />
+        </action> -->
+        <action name="Kill">
+          <parameter name="Target" value="Outpost Headquarters" />
+		  <parameter name="IgnoreAttackers" value="false" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

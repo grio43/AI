@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+http://eve-survival.org/wikka.php?wakka=AttackoftheDrones4 
+-->
+<mission>
+<missionWarpAtDistanceRange>70</missionWarpAtDistanceRange>
+  <pockets>
+    <pocket id="0">
+      <damagetype>EM</damagetype>
+      <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="30" />
+        </action>
+		<!-- becuase each trigger spawns a different spawn and we arent sure which is which -->
+		<!-- all the spawns are listed 4x... and should be triggered when any of the trigger spawn NPCs is killed -->
+		<action name="Kill">
+          <parameter name="Target" value="Bomber Alvum" />
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Infester" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Sprinter Alvi" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Ruler" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Alvus Ruler" />
+        </action>
+		
+
+		<action name="Kill">
+          <parameter name="Target" value="Bomber Alvum" />
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Infester" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Sprinter Alvi" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Ruler" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Alvus Ruler" />
+        </action>
+		
+		
+		
+        <action name="Kill">
+          <parameter name="Target" value="Defeater Alvatis" />          
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Bomber Alvum" />
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Infester" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Sprinter Alvi" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Ruler" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Alvus Ruler" />
+        </action>
+		
+		
+		
+		<action name="Kill">
+          <parameter name="Target" value="Defeater Alvatis" />
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+        <action name="Kill">          
+          <parameter name="Target" value="Bomber Alvum" />
+		  <parameter name="BreakOnAttackers" value="False" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Infester" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Strain Sprinter Alvi" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Ruler" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Supreme Alvus Parasite" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Alvus Ruler" />
+        </action>
+		
+		
+        <action name="ClearPocket" />
+        <!-- <action name="Loot" /> -->
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

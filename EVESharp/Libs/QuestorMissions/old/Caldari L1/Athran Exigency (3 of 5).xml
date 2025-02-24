@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+	    <!-- Blitz -->
+        <!-- Destroy the "Amarr Starbase Control Tower", leaving the ships alone. -->
+        <action name="ClearPocket" />
+        <action name="Kill">
+          <parameter name="Target" value="Athran Ammunitions Depot" />
+        </action>
+		<action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

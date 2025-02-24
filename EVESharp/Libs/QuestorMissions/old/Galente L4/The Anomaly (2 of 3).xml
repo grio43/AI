@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<missions>
+  <bring>Neurowave Pattern Scanner</bring>
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="Activate">
+          <parameter name="Target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+        <action name="MoveTo">
+          <parameter name="Target" value="The Anomaly" />
+          <parameter name="Distance" value="1000" />
+        </action>
+        <action name="DropItem">
+          <parameter name="Target" value="The Anomaly" />
+          <parameter name="Item" value="Neurowave Pattern Scanner" />
+          <parameter name="Quantity" value="1" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</missions>

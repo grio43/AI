@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Thermal</damagetype>
+      <actions>
+        <action name="Ignore">
+			<parameter name="Add" value="Gistatis Legionnaire" />
+			<parameter name="Add" value="Gistatis Praefectus" />
+			<parameter name="Add" value="Gistatis Primus" />
+			<parameter name="Add" value="Gistatis Seizer" />
+			<parameter name="Add" value="Gistatis Tribuni" />
+			<parameter name="Add" value="Gistatis Legatus" />
+			<parameter name="Add" value="Arch Gistum Defeater" />			
+			<parameter name="Add" value="Arch Gistum Liquidator" />
+			<parameter name="Add" value="Arch Gistum Marauder" />
+			<parameter name="Add" value="Arch Gistum Breaker" />
+			<parameter name="Add" value="Arch Gistum Crusher" />
+			<parameter name="Add" value="Gistatis Tribunus" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Legionnaire" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Praefectus" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Primus" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Seizer" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Arch Gistum Defeater" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Arch Gistum Liquidator" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Arch Gistum Marauder" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Arch Gistum Breaker" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Arch Gistum Crusher" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Tribuni" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Legatus" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Gistatis Tribunus" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

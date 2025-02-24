@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <damagetype>Explosive</damagetype>
+      <actions>
+        <action name="Kill">
+          <parameter name="Target" value="Angel Tactical Outpost" />
+          <parameter name="Target" value="Scanner Post" />
+        </action>
+		<action name="MoveTo">
+			<parameter name="Target" value="Acceleration Gate" />
+		</action>
+        <action name="ClearPocket" />
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="2">
+      <actions>
+        <action name="MoveTo">
+			<parameter name="Target" value="Acceleration Gate" />
+		</action>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="3">
+      <actions>
+        <action name="MoveTo">
+			<parameter name="Target" value="Acceleration Gate" />
+		</action>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="4">
+      <actions>
+        <action name="Kill">
+          <parameter name="Target" value="Storage Silo" />
+          <parameter name="Target" value="Radio Telescope" />
+        </action>
+        <action name="MoveTo">
+			<parameter name="Target" value="Acceleration Gate" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
+      </actions>
+    </pocket>
+    <pocket id="5">
+      <actions>
+	    <!-- ignore triggers -->
+        <action name="Kill">
+          <parameter name="Target" value="Gist General" />
+		  <parameter name="Target" value="Gist General" />
+        </action>
+        <action name="Kill">
+          <parameter name="Target" value="Gist War General" />
+        </action>
+        <action name="Kill">
+          <parameter name="Target" value="Gist Warlord" />
+		  <parameter name="Target" value="Gist Saint" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Tiogo Kargaz" />
+        </action>
+        <action name="ClearPocket" />
+		<action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

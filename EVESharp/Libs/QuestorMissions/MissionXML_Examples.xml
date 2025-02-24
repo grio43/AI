@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!-- Mission XML Examples -->
+<!-- <debugUnOverLoadModules>false</debugUnOverLoadModules> -->
+<Missions>
+  <bring>ItemA</bring>  <!-- will  bring an item, if item not avail, fail, halt -->
+  <bringquantity>2</bringquantity> <!-- optional, only needed if you want to bring more than 1 -->
+  <trytobring>ItemB</trytobring> <!-- will attempt to bring, if item not avail, continue -->
+  <trytobringquantity>3</trytobringquantity> <!-- optional, only needed if you want to bring more than 1 -->
+  <usedrones>false</usedrones> <!-- turn drones off for this mission if needed: false == off, true == on-->
+  <droneTypeId>2488</droneTypeId> <!-- drones typeid to use for this mission, overrides the characer level setting: dronetypeid -->
+  <dronesKillHighValueTargets>false</dronesKillHighValueTargets>
+  <killSentries>true</killSentries> <!-- if set to true questor's clearpocket action will not ignore sentries -->
+  <missionWarpAtDistanceRange>100</missionWarpAtDistanceRange> <!-- distance to warp to bookmark at in km (this only works 2nd through nth times, 1st time you will warpto 0 -->
+  <attemptOverloadRackHigh>true</attemptOverloadRackHigh>
+  <attemptOverloadRackMedium>true</attemptOverloadRackMedium>
+  <attemptOverloadRackLow>true</attemptOverloadRackLow>
+  <attemptOverloadHighSlot1>false</attemptOverloadHighSlot1>
+  <deactivateOverloadHighSlot1Seconds>0</deactivateOverloadHighSlot1Seconds>
+  <attemptOverloadHighSlot2>false</attemptOverloadHighSlot2>
+  <deactivateOverloadHighSlot2Seconds>0</deactivateOverloadHighSlot2Seconds>
+  <attemptOverloadHighSlot3>false</attemptOverloadHighSlot3>
+  <deactivateOverloadHighSlot3Seconds>0</deactivateOverloadHighSlot3Seconds>
+  <attemptOverloadHighSlot4>false</attemptOverloadHighSlot4>
+  <deactivateOverloadHighSlot4Seconds>0</deactivateOverloadHighSlot4Seconds>
+  <attemptOverloadHighSlot5>false</attemptOverloadHighSlot5>
+  <deactivateOverloadHighSlot5Seconds>0</deactivateOverloadHighSlot5Seconds>
+  <attemptOverloadHighSlot6>false</attemptOverloadHighSlot6>
+  <deactivateOverloadHighSlot6Seconds>0</deactivateOverloadHighSlot6Seconds>
+  <attemptOverloadHighSlot7>false</attemptOverloadHighSlot7>
+  <deactivateOverloadHighSlot7Seconds>0</deactivateOverloadHighSlot7Seconds>
+  <attemptOverloadHighSlot8>false</attemptOverloadHighSlot8>
+  <deactivateOverloadHighSlot8Seconds>0</deactivateOverloadHighSlot8Seconds>
+  <attemptOverloadMidSlot1>false</attemptOverloadMidSlot1>
+  <deactivateOverloadMidSlot1Seconds>0</deactivateOverloadMidSlot1Seconds>
+  <attemptOverloadMidSlot2>false</attemptOverloadMidSlot2>
+  <deactivateOverloadMidSlot2Seconds>0</deactivateOverloadMidSlot2Seconds>
+  <attemptOverloadMidSlot3>false</attemptOverloadMidSlot3>
+  <deactivateOverloadMidSlot3Seconds>0</deactivateOverloadMidSlot3Seconds>
+  <attemptOverloadMidSlot4>false</attemptOverloadMidSlot4>
+  <deactivateOverloadMidSlot4Seconds>0</deactivateOverloadMidSlot4Seconds>
+  <attemptOverloadMidSlot5>false</attemptOverloadMidSlot5>
+  <deactivateOverloadMidSlot5Seconds>0</deactivateOverloadMidSlot5Seconds>
+  <attemptOverloadMidSlot6>false</attemptOverloadMidSlot6>
+  <deactivateOverloadMidSlot6Seconds>0</deactivateOverloadMidSlot6Seconds>
+  <attemptOverloadMidSlot7>false</attemptOverloadMidSlot7>
+  <deactivateOverloadMidSlot7Seconds>0</deactivateOverloadMidSlot7Seconds>
+  <attemptOverloadMidSlot8>false</attemptOverloadMidSlot8>
+  <deactivateOverloadMidSlot8Seconds>0</deactivateOverloadMidSlot8Seconds>
+  <attemptOverloadLowSlot1>false</attemptOverloadLowSlot1>
+  <deactivateOverloadLowSlot1Seconds>0</deactivateOverloadLowSlot1Seconds>
+  <attemptOverloadLowSlot2>false</attemptOverloadLowSlot2>
+  <deactivateOverloadLowSlot2Seconds>0</deactivateOverloadLowSlot2Seconds>
+  <attemptOverloadLowSlot3>false</attemptOverloadLowSlot3>
+  <deactivateOverloadLowSlot3Seconds>0</deactivateOverloadLowSlot3Seconds>
+  <attemptOverloadLowSlot4>false</attemptOverloadLowSlot4>
+  <deactivateOverloadLowSlot4Seconds>0</deactivateOverloadLowSlot4Seconds>
+  <attemptOverloadLowSlot5>false</attemptOverloadLowSlot5>
+  <deactivateOverloadLowSlot5Seconds>0</deactivateOverloadLowSlot5Seconds>
+  <attemptOverloadLowSlot6>false</attemptOverloadLowSlot6>
+  <deactivateOverloadLowSlot6Seconds>0</deactivateOverloadLowSlot6Seconds>
+  <attemptOverloadLowSlot7>false</attemptOverloadLowSlot7>
+  <deactivateOverloadLowSlot7Seconds>0</deactivateOverloadLowSlot7Seconds>
+  <attemptOverloadLowSlot8>false</attemptOverloadLowSlot8>
+  <deactivateOverloadLowSlot8Seconds>0</deactivateOverloadLowSlot8Seconds>
+  <missionAllowOverLoadOfReps>false</missionAllowOverLoadOfReps>
+  <speedtank>false</speedtank> <!--  speedtank: orbits... -->
+  <missionAlwaysActivateSpeedMod>false</missionAlwaysActivateSpeedMod> <!-- activates speed mod (does not necessarily orbit...)  -->
+  <orbitDistance>500</orbitDistance> <!-- orbit range used with speed tank  -->
+  <missionTooCloseToStructure>2000</missionTooCloseToStructure> <!-- If you get this close or closer to an LCO start orbiting away from the LCO -->
+  <missionSafeDistanceFromStructure>5000</missionSafeDistanceFromStructure> <!-- Once you start orbiting away from an LCO this is the distance you have to be away from it before it will continue navigating normally again -->
+  <optimalRange>1000</optimalRange> <!-- range that we try to stay within (will move until we are within) and use to determine the best targets to shoot  --> 
+  <activateRepairModulesAtThisPerc>99</activateRepairModulesAtThisPerc>
+  <activateSecondRepairModulesAtThisPerc>75</activateSecondRepairModulesAtThisPerc> <!-- If you have a 2nd armor repairer fitted it will activate if armor falls below this percentage  -->
+  <deactivateRepairModulesAtThisPerc>100</deactivateRepairModulesAtThisPerc> <!-- deactivate repair modules once you reach this percentage shields/armor  -->
+  <capacitorInjectorScript></capacitorInjectorScript> <!--  typeID of the capacitor charges to use -->
+  <numberOfCapBoostersToLoad>10</numberOfCapBoostersToLoad> <!--  # of charges to load into cargo during arm -->
+  <minimumShieldPct>0</minimumShieldPct> <!-- Anything below this number and panic will kick in! -->
+  <minimumArmorPct>0</minimumArmorPct> <!-- Anything below this number and panic will kick in! -->
+  <minimumCapacitorPct>0</minimumCapacitorPct> <!-- Anything below this number and panic will kick in! -->
+  <missionInjectCapPerc>0</missionInjectCapPerc> <!-- If you have a capacitor injector fitted any capacitor level under this percentage will attempt to inject cap  -->
+  <damagetype>EM</damagetype>
+  <missionLootEverything>false</missionLootEverything>
+  <!--  Optional! Mission Specific ammo -->
+  <ammoTypes>
+    <ammoType typeId="27339" damageType="EM"        range="35000" quantity="1250" />
+    <ammoType typeId="27345" damageType="Kinetic"   range="35000" quantity="1250" />
+    <ammoType typeId="27351" damageType="Thermal"   range="35000" quantity="1250" />
+    <ammoType typeId="27359" damageType="Explosive" range="35000" quantity="1250" />
+  </ammoTypes>
+  <missionBoosterTypes>
+	<boosterType></boosterType> <!--typeID of the boosters you wish to attempt to consume, you can add multiple, but make sure they are different slots! They will be consumed in station during Arm. -->
+  </missionBoosterTypes>
+  <pockets>
+    <pocket id="0">
+      <damagetype>EM</damagetype>
+	  <action name="LogWhatIsOnGrid" /> <!-- logs the details of all on grid entities to the console log -->
+
+	  <action name="Ecm">
+	    <!-- Character XML setting <capacitorNeededToDeactivateBastion>75</capacitorNeededToDeactivateBastion> -->
+        <parameter name="Target" value="Dim" />
+      </action>
+	  
+	  <action name="ActivateBastion">
+	    <!-- Character XML setting <capacitorNeededToDeactivateBastion>75</capacitorNeededToDeactivateBastion> -->
+        <parameter name="AttemptToDeactivateBastionAfterSeconds" value="60" /> <!-- Will only attempt to deactivate after this number of seconds: if the capicotor level is greater than the character level setting capacitorNeededToDeactivateBastion we deactivate bastion -->
+		<parameter name="DeactivateAfterSeconds" value="1800" /> <!-- time in seconds before we deactivate bastion mode, keep in mind they have a 60 sec cycle time -->
+        <parameter name="DeactivateIfNothingTargetedWithinRange" value="true" /> <!-- default is false, run the timer out regardless of available targets, useful for multiple spawns -->
+      </action>
+	  
+      <action name="MoveTo"> <!-- initiate movement to the "target" and fight only those NPCs that target you while you are on the way, process no other actions until you reach the target-->
+        <parameter name="Target" value="Acceleration Gate" />
+        <parameter name="Distance" value="0" />
+        <parameter name="StopWhenTargeted" value="false" />
+        <parameter name="StopWhenAggressed" value="false" />
+      </action>
+      
+      <action name="OrbitEntity"> <!-- orbits the Entity with this name -->
+	    <!-- orbitdistance is set by <orbitDistance>500</orbitDistance> in the mission root  -->
+        <parameter name="Target" value="Beacon" />
+        <parameter name="NotClosest" value="true" />
+      </action> 
+
+      <action name="MoveToBackground"> <!-- initiate movement to to the "target" and move on to the next action, using this action assumes that the actions used after this will not move the ship as we likely need to stay moving toward the target-->
+        <parameter name="Target" value="Acceleration Gate" />
+        <parameter name="Distance" value="0"/>
+      </action>
+
+      <action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="15"/>
+      </action>
+
+      <action name="AddWarpScramblerByName"> <!-- Add this NPC by name to the list of known WarpScramblers-->
+        <parameter name="NotClosest" value="false" />
+        <parameter name="NumberToIgnore" value="0" />
+        <parameter name="Target" value="Dim"/>
+      </action>
+
+      <action name="AddWebifierByName"> <!-- Add this NPC by name to the list of known Webifiers-->
+        <parameter name="NotClosest" value="false" />
+        <parameter name="NumberToIgnore" value="0" />
+        <parameter name="Target" value="Dim" />
+      </action>
+
+      <action name="WaitUntilAggressed">
+          <parameter name="WaitUntilShieldsAreThisLow" value="50"/>
+          <parameter name="WaitUntilArmorIsThisLow" value="100"/>
+          <parameter name="Timeout" value="60"/>
+      </action>
+
+      <action name="ClearPocket">  <!-- This is a commonly used action that clears the pocket of NPCs -->
+        <parameter name="distance" value="30000" /> <!-- default distance is your maxRange, use this if you only want to clear aggro within 30k -->
+		<parameter name="continueWhenWeHaveThisItemInCargo" value="Gate Key" /> 
+		<parameter name="continueWhenWeHaveThisNumberOfTheItemInCargo" value="1" /> 
+      </action>
+
+      <action name="ClearAggro">
+        <parameter name="distance">30000</parameter> <!-- default distance is your maxRange, use this if you only want to clear aggro within 30k -->
+      </action>  <!-- action that clears the pocket of NPCs that are targeting us (aggro) -->
+
+      <action name="ClearWithinWeaponsRangeOnly">
+        <parameter name="distance">30000</parameter> <!-- default distance is your maxRange, use this if you only want to clear aggro within 30k -->
+      </action> <!-- This is used in combination with MoveToBackground, only NPCs in weapons range will be killed/cleared, because of the nature of this command no movement commands are given to the ship, you only kill what is in range thus you may need to add a regular clearpocket after this command to cleanup anything possibly out of range -->
+
+      <action name="ClearWithinWeaponsRangewAggroOnly"> <!-- This is used in combination with MoveToBackground, only NPCs in weapons range who are targeting us will be killed/cleared, because of the nature of this command no movement commands are given to the ship, you only kill what is in range thus you may need to add a regular clearpocket after this command to cleanup anything possibly out of range -->
+        <parameter name="distance">30000</parameter> <!-- default distance is your maxRange, use this if you only want to clear aggro within 30k -->
+      </action> 
+
+      <action name="AggroOnly">
+        <parameter name="IgnoreAttackers" value="true" />
+        <parameter name="BreakOnAttackers" value="true" />
+        <parameter name="NotClosest" value="true" />
+        <parameter name="NumberToIgnore" value="50" />
+        <parameter name="Target" value="Dim" />
+      </action>
+      
+      <action name="Kill">
+        <parameter name="IgnoreAttackers" value="true" />
+        <parameter name="BreakOnAttackers" value="true" />
+        <parameter name="NotClosest" value="false" />                   <!-- By default this is false (sort targets closest first), if you wish to sort targets furthest away first set this true   -->
+        <parameter name="NumberToIgnore" value="0" />                   <!-- 0 ignores none, 1 would ignore the 1st in the list, 2 would ignore the 1st two. This takes effect AFTER "NotClosest" if configured  -->
+		<parameter name="AttackUntilBelowShieldPercentage" value="0" /> <!-- 0 is disabled, any other percentage and we will move on to the next action when the target falls below that percentage -->
+		<parameter name="AttackUntilBelowArmorPercentage" value="0" />  <!-- 0 is disabled, any other percentage and we will move on to the next action when the target falls below that percentage -->
+		<parameter name="AttackUntilBelowHullPercentage" value="0" />   <!-- 0 is disabled, any other percentage and we will move on to the next action when the target falls below that percentage -->
+        <parameter name="Target" value="Dim" />
+      </action>
+      
+	  <!--  this action is very simple... it does not avoid Large Colidable Objects, does not do anything fancy: simply keep at range at the distance specified and let combat kill the target. -->
+	  <!--  it is worth noting this does not speed tank because it is keeping at range! use with caution! -->
+	  <action name="KillKeepAtRange">
+        <parameter name="NotClosest" value="false" />                   <!-- By default this is false (sort targets closest first), if you wish to sort targets furthest away first set this true   -->
+        <parameter name="Target" value="Dim" />
+		<parameter name="Distance" value="1000"/>
+      </action>
+	  
+	  <action name="KillNoNavigateOnGrid">
+        <parameter name="Target" value="Dim" /> <!-- this target will be shot... and targets will be sorted so that if the target and ecm target have the same name we will choose to shoot the non-ECMd target first -->
+		<parameter name="ecmTarget" value="Dim" /> <!-- this (optional) target will be ECMd, targets with this name will be sorted by distance: we choose the ecm the furthest away first -->
+		<parameter name="TrackingDisruptTarget" value="Dim" />
+      </action>
+	  
+      <action name="KillOnce">
+        <parameter name="IgnoreAttackers" value="true"></parameter>
+        <parameter name="BreakOnAttackers" value="true"></parameter>
+        <parameter name="NotClosest" value="true"></parameter>
+        <parameter name="NumberToIgnore" value="50"></parameter>
+        <parameter name="Target" value="Dim"></parameter>
+      </action>
+      
+      <action name="UseDrones">
+        <parameter name="Use" value="true" />
+      </action>
+      
+      <action name="KillClosestByName">
+        <parameter name="NotClosest" value="true" />
+        <parameter name="Target" value="Dim" />
+      </action>
+      
+      <action name="KillClosest">
+        <parameter name="NotClosest" value="true" />
+        <parameter name="Target" value="Dim" />
+      </action>
+      
+      <action name="Ignore">
+        <parameter name="Clear" value="true" />
+        <parameter name="Add" value="Dim" />
+        <parameter name="Remove" value="Dim" />
+      </action>
+      
+      <action name="Loot"> <!-- this loots the field if LootEverything is true, if False it only loots item below then moves on --> 
+        <parameter name="Item" value="DimsIsk" />
+        <parameter name="Target" value="Dim" />
+      </action>
+      
+      <action name="LootItem"> <!-- this looks in a specific container for a specific item potentially saving ALOT of time because it does not necessarily have to "loot the field" to find the item -->
+        <parameter name="Item" value="DimsIsk" />
+        <parameter name="Target" value="Dim" />
+        <parameter name="Quantity" value="30" />
+      </action>
+      
+      <action name="DropItem"> <!--  this puts a specific item (in your cargo already) into the target container -->
+        <parameter name="Item" value="DimsIsk"></parameter>
+        <parameter name="Target" value="Dim"></parameter>
+        <parameter name="Quantity" value="30"></parameter>
+      </action>
+
+      <action name="DebuggingWait"> <!-- literally only used for debugging: allows you to put in a LONG wait (in seconds) if needed: default is 1200 seconds, Questor WILL shoot things as it waits it just wont be processing any mission actions -->
+          <parameter name="timeout" value="1200"></parameter>
+      </action> 
+      
+      <action name="Done"/> <!-- end of mission: GoToBase -->
+      
+      <action name="SalvageBookmark" />
+      
+	  <action name="Salvage">
+        <parameter name="Target" value="Dim" />							<!-- orbit this target at 500m and salvage it until it produces an item (specified in the Item parameter) in your ships cargo -->
+		<parameter name="Item" value="0" />                             <!-- salvage the target until an item with this name appears in the ships cargo!  -->
+		<parameter name="Quantity" value="0" />                         <!-- if this is missing we assume we only need to have 1 of these items for this action to succeed -->
+      </action>
+	  
+      <action name="Activate">
+        <parameter name="optional" value="false" /> <!-- if true and we cant find the target to activate we assume the mission is done -->
+        <parameter name="target" value="Acceleration Gate" />
+      </action>
+    </pocket>
+    <pocket id="1">
+        <!-- next pocket (if needed)-->
+    </pocket>
+  </pockets>
+</Missions>

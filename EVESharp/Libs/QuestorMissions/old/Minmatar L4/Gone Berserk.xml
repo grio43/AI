@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+        <action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="60"/>
+		</action>
+        <action name="ClearPocket" />
+		<action name="WaitUntilTargeted"> <!-- wait this # of seconds before proceeding to the next action (basically a pause for NPCs to spawn)-->
+        <parameter name="Timeout" value="60"/>
+        </action>
+        <action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

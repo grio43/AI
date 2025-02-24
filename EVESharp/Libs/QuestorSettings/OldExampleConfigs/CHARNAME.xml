@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+ 
+  <commonSettingsFileName>LVL1.xml</commonSettingsFileName>
+  
+  <!-- SHIP NAMES -->
+  <combatShipName>name</combatShipName><!-- needs to be customized-->
+  <salvageShipName>x</salvageShipName><!-- needs to be customized-->
+  <transportShipName>name</transportShipName><!-- needs to be customized-->
+   
+<agentsList>
+    <agentList name="name" priority="0" homestationid="6000XXXX" /><!-- needs to be customized -->
+  </agentsList>
+   
+  <!-- BuyAmmo/BuyPlex -->
+  <buyPlex>true</buyPlex>
+  <buyAmmo>true</buyAmmo>
+  <buyAmmoStationID>6000XXXX</buyAmmoStationID>
+  <buyAmmoDroneAmount>200</buyAmmoDroneAmount>
+ 
+</settings>

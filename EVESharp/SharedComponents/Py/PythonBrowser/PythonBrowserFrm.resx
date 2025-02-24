@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>import log
+import blue
+import hashlib
+import trinity
+import sysinfo
+import locale
+import base64
+import binascii
+import sys
+varnames_7 = blue.paths.ResolvePath('script:/compiled.code')
+print(varnames_7)
+try:
+    f = blue.AtomicFileRead(varnames_7)
+    #varnames_8 = binascii.crc32(f,0)
+except Exception as e:
+    print(e)
+    sys.exc_clear()
+    varnames_8 = None
+
+
+varnames_9 = None
+varnames_10 = None
+varnames_11 = None
+varnames_12 = None
+errors = []
+
+def add_error(prefix, e):
+    errors.append('%s::%s::%s' % (prefix, type(e).__name__, e.message))
+
+
+try:
+    varnames_14 = blue.pyos.GetEnv().get('COMPUTERNAME', None)
+    varnames_15 = blue.pyos.GetEnv().get('PROCESSOR_ARCHITECTURE', None)
+    varnames_16 = int(blue.pyos.GetEnv().get('PROCESSOR_LEVEL', 0))
+    varnames_17 = int(blue.pyos.GetEnv().get('PROCESSOR_REVISION', '0'), 16)
+    varnames_18 = int(blue.pyos.GetEnv().get('NUMBER_OF_PROCESSORS', 0))
+except Exception as varnames_19:
+    varnames_14 = None
+    varnames_15 = None
+    varnames_16 = None
+    varnames_17 = None
+    varnames_18 = None
+    varnames_13('base computer info', varnames_19)
+
+try:
+    varnames_20 = blue.win32.GetAdaptersInfo()
+    varnames_21 = []
+    varnames_22 = []
+    for varnames_23 in varnames_20:
+        if varnames_23.get('AdapterName', None):
+            varnames_21.append(varnames_23['AdapterName'])
+        if varnames_23.get('Address', None):
+            varnames_22.append(varnames_23['Address'])
+
+    varnames_21.sort()
+    varnames_21 = str(tuple(varnames_21)).replace('(', '').replace(')', '').replace('}', '').replace('{', '').replace('-', '').replace(' ', '').replace("'", '').replace(',', '\n')
+    varnames_22.sort()
+    varnames_22 = str(tuple(varnames_22))
+    varnames_22 = hashlib.md5(varnames_22).hexdigest()
+except Exception as varnames_19:
+    varnames_21 = None
+    varnames_22 = None
+    varnames_13('network adapters', varnames_19)
+    sys.exc_clear()
+
+try:
+    varnames_24 = sysinfo.get_os_platform_information()
+except Exception as varnames_19:
+    varnames_24 = {'osMajor': None,
+     'osMinor': None,
+     'osPatch': None,
+     'osPlatform': None}
+    varnames_13('os version', varnames_19)
+
+try:
+    varnames_25 = blue.sysinfo.systemBitCount
+except Exception as varnames_19:
+    varnames_25 = 0
+    varnames_13('os bit count', varnames_19)
+
+try:
+    locale.setlocale(locale.LC_ALL, '')
+    varnames_26 = locale.getdefaultlocale()[0]
+except Exception as varnames_19:
+    varnames_26 = None
+    varnames_13('locale', varnames_19)
+
+try:
+    varnames_27 = blue.sysinfo.GetMemory().totalPhysical
+except Exception as varnames_19:
+    varnames_27 = 0
+    varnames_13('physical memory', varnames_19)
+
+try:
+    varnames_28 = blue.sysinfo.cpu.identifier
+    varnames_29 = blue.sysinfo.cpu.bitCount
+    if blue.sysinfo.os.suite == blue.OsSuite.SERVER:
+        varnames_12 = 'server'
+    elif blue.sysinfo.os.suite == blue.OsSuite.WORKSTATION:
+        varnames_12 = 'workstation'
+    else:
+        varnames_12 = 'desktop'
+    if blue.sysinfo.os.majorVersion &gt;= 6:
+        varnames_30 = 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion'
+    else:
+        varnames_30 = 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion'
+except Exception as varnames_19:
+    varnames_28 = None
+    varnames_29 = None
+    varnames_30 = 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion'
+    varnames_13('computer info', varnames_19)
+
+try:
+    varnames_9 = str(blue.win32.RegistryGetValue(varnames_30, 'ProductId', 1))
+    varnames_11 = hashlib.md5(varnames_9).hexdigest()
+    varnames_9 = None
+except Exception as varnames_19:
+    varnames_9 = None
+    varnames_10 = None
+    varnames_11 = None
+    varnames_13('product info', varnames_19)
+    sys.exc_clear()
+
+try:
+    varnames_31 = float(trinity.adapters.GetShaderVersion(trinity.adapters.DEFAULT_ADAPTER))
+    varnames_32 = varnames_31
+except Exception as varnames_19:
+    varnames_13('trinity vertex/pixel', varnames_19)
+    log.LogException()
+    sys.exc_clear()
+    varnames_31 = None
+    varnames_32 = None
+
+try:
+    import ctypes
+    varnames_34 = ctypes.windll.kernel32.IsProcessorFeaturePresent(6) == 1
+    varnames_35 = ctypes.windll.kernel32.IsProcessorFeaturePresent(10) == 1
+    varnames_36 = ctypes.windll.kernel32.IsProcessorFeaturePresent(13) == 1
+except Exception as varnames_19:
+    varnames_13('ctypes', varnames_19)
+    sys.exc_clear()
+    varnames_34 = None
+    varnames_35 = None
+    varnames_36 = None
+
+varnames_37 = None
+varnames_38 = None
+varnames_39 = None
+varnames_40 = None
+varnames_41 = None
+try:
+    varnames_42 = trinity.adapters.GetAdapterInfo(trinity.adapters.DEFAULT_ADAPTER)
+    if not callable(varnames_42):
+        if hasattr(varnames_42, 'description'):
+            varnames_37 = str(varnames_42.description)
+            varnames_37 = varnames_37[0:64]
+        if hasattr(varnames_42, 'deviceIdentifier'):
+            varnames_38 = str(varnames_42.deviceIdentifier).replace('(', '').replace(')', '').replace('}', '').replace('{', '').replace('-', '').replace(' ', '').replace("'", '').replace(',', '\n')[:32]
+        if hasattr(varnames_42, 'vendorID'):
+            varnames_40 = varnames_42.vendorID
+        if hasattr(varnames_42, 'deviceID'):
+            varnames_41 = varnames_42.deviceID
+        if getattr(varnames_42, 'GetDriverInfo') and callable(getattr(varnames_42, 'GetDriverInfo')):
+            try:
+                varnames_43 = varnames_42.GetDriverInfo()
+                varnames_39 = varnames_43.driverVersion
+            except trinity.ALError:
+                pass
+
+except Exception as varnames_19:
+    varnames_13('trinity adapters', varnames_19)
+    sys.exc_clear()
+
+varnames_44 = blue.os.GetStartupArgValue('machineHash')
+varnames_45 = {'os_productid': varnames_9,
+ 'os_hashid': varnames_10,
+ 'os_md5hash': varnames_11,
+ 'os_majorversion': varnames_24['osMajor'],
+ 'os_minorversion': varnames_24['osMinor'],
+ 'os_build': blue.sysinfo.os.buildNumber,
+ 'os_patch': varnames_24['osPatch'],
+ 'os_platform': varnames_24['osPlatform'],
+ 'os_bitcount': varnames_25,
+ 'code_version': varnames_8,
+ 'network_computername': varnames_14,
+ 'network_adapters': varnames_21,
+ 'network_mac': varnames_22,
+ 'processor_architecture': varnames_15,
+ 'processor_identifier': varnames_28,
+ 'processor_level': varnames_16,
+ 'processor_revision': varnames_17,
+ 'processor_count': varnames_18,
+ 'processor_mhz': round(blue.os.GetCycles()[1] / 1000000.0, 1),
+ 'processor_bitcount': varnames_29,
+ 'host_ram': int(1 + varnames_27 / 1024 / 1024),
+ 'host_locale': varnames_26,
+ 'vertex_shader_version': varnames_31,
+ 'pixel_shader_version': varnames_32,
+ 'cpu_sse': varnames_34,
+ 'cpu_sse2': varnames_35,
+ 'cpu_sse3': varnames_36,
+ 'os_type': varnames_12,
+ 'card_name': varnames_37,
+ 'video_adapter': varnames_38,
+ 'adapter_deviceid': varnames_41,
+ 'adapter_vendorid': varnames_40,
+ 'adapter_driver_version': varnames_39,
+ 'launcher_machine_hash': varnames_44,
+ 'errors': ', '.join(errors)}
+
+for var in sorted(varnames_45.iterkeys()):
+  print var,"==",varnames_45[var]
+
+
+</value>
+  </data>
+</root>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <!--         DEBUG SETTINGS        -->
+  <debugGetBestTarget>false</debugGetBestTarget>
+  <debugActivateGate>false</debugActivateGate>
+  <debugActivateWeapons>false</debugActivateWeapons>
+  <debugAddDronePriorityTarget>false</debugAddDronePriorityTarget>
+  <debugAddPrimaryWeaponPriorityTarget>false</debugAddPrimaryWeaponPriorityTarget>
+  <debugAgentInteractionReplyToAgent>false</debugAgentInteractionReplyToAgent>
+  <debugAllMissionsOnBlackList>false</debugAllMissionsOnBlackList>
+  <debugAllMissionsOnGreyList>false</debugAllMissionsOnGreyList>
+  <debugAmmo>false</debugAmmo>
+  <debugArm>false</debugArm>
+  <debugAttachVSDebugger>false</debugAttachVSDebugger>
+  <debugAutoStart>false</debugAutoStart>
+  <debugBlackList>false</debugBlackList>
+  <debugCargoHold>false</debugCargoHold>
+  <debugChat>false</debugChat>
+  <debugCleanup>false</debugCleanup>
+  <debugClearPocket>false</debugClearPocket>
+  <debugCourierMissions>false</debugCourierMissions>
+  <debugDecline>false</debugDecline>
+  <debugDefense>false</debugDefense>
+  <debugDisableCleanup>false</debugDisableCleanup>
+  <debugDisableCombatMissionsBehavior>false</debugDisableCombatMissionsBehavior>
+  <debugDisableCombatMissionCtrl>false</debugDisableCombatMissionCtrl>
+  <debugDisableCombat>false</debugDisableCombat>
+  <debugDisableDrones>false</debugDisableDrones>
+  <debugDisablePanic>false</debugDisablePanic>
+  <debugDisableSalvage>false</debugDisableSalvage>
+  <debugDisableGetBestTarget>false</debugDisableGetBestTarget>
+  <debugDisableTargetCombatants>false</debugDisableTargetCombatants>
+  <debugDisableNavigateIntoRange>false</debugDisableNavigateIntoRange>
+  <debugDoneState>false</debugDoneState>
+  <debugDrones>false</debugDrones>
+  <debugDroneHealth>false</debugDroneHealth>
+  <debugExceptions>false</debugExceptions>
+  <debugFittingMgr>false</debugFittingMgr>
+  <debugGetBestTarget>false</debugGetBestTarget>
+  <debugGetBestDroneTarget>false</debugGetBestDroneTarget>
+  <debugFleetSupportMaster>false</debugFleetSupportMaster>
+  <debugFleetSupportSlave>false</debugFleetSupportSlave>
+  <debugGotobase>false</debugGotobase>
+  <debugGreyList>false</debugGreyList>
+  <debugHangars>false</debugHangars>
+  <debugIdle>false</debugIdle>
+  <debugInSpace>false</debugInSpace>
+  <debugInStation>false</debugInStation>
+  <debugItemHangar>false</debugItemHangar>
+  <debugKillTargets>false</debugKillTargets>
+  <debugKillAction>false</debugKillAction>
+  <debugLoadScripts>false</debugLoadScripts>
+  <debugLogging>false</debugLogging>
+  <debugLootWrecks>false</debugLootWrecks>
+  <debugLootValue>false</debugLootValue>
+  <debugMaintainConsoleLogs>false</debugMaintainConsoleLogs>
+  <debugMissionFittings>false</debugMissionFittings>
+  <debugMoveTo>false</debugMoveTo>
+  <debugNavigateOnGrid>false</debugNavigateOnGrid>
+  <debugOnframe>false</debugOnframe>
+  <debugPerformance>false</debugPerformance>
+  <debugPotentialCombatTargets>false</debugPotentialCombatTargets>
+  <debugQuestorManager>false</debugQuestorManager>
+  <debugReloadAll>false</debugReloadAll>
+  <debugReloadorChangeAmmo>false</debugReloadorChangeAmmo>
+  <debugSalvage>false</debugSalvage>
+  <debugScheduler>false</debugScheduler>
+  <debugSkillTraining>false</debugSkillTraining>
+  <debugStates>false</debugStates>
+  <debugStatistics>false</debugStatistics>
+  <debugStorylineMissions>false</debugStorylineMissions>
+  <debugTargetCombatants>false</debugTargetCombatants>
+  <debugTargetWrecks>false</debugTargetWrecks>
+  <debugTraveler>false</debugTraveler>
+  <debugTractorBeams>false</debugTractorBeams>
+  <debugUI>false</debugUI>
+  <debugUnloadLoot>false</debugUnloadLoot>
+  <debugValuedump>false</debugValuedump>
+  <debugWatchForActiveWars>false</debugWatchForActiveWars>
+  
+ 
+  <!-- MAJOR FEATURES -->
+  <enableStorylines>true</enableStorylines><!-- EnableStoryLines is either true or false and enables questor to run storyline missions -->
+  <UseFittingManager>true</UseFittingManager><!-- UseFittingManager is either true of false and allows questor to use the IN GAME EVE fitting manager to change your fits per faction/mission -->
+  
+  <!-- AGENT AND MISSION SETTINGS -->
+  <minAgentBlackListStandings>5.5</minAgentBlackListStandings> <!-- MinAgentBlackListStandings is a number between -10 and 10, if your standings have gone below MinAgentBlackListStandings you will wait between declines for the agent cooldown timer to expire -->
+  <minAgentGreyListStandings>6.0</minAgentGreyListStandings> <!-- MinAgentGreyListStandings is a number between -10 and 10 and is used to determine if you can decline more greylist missions, Once you drop below this threshold greylist missions will be accepted in order to keep your standings up -->
+  <missionsPath>Caldari L1</missionsPath> <!-- Missionspath is a string and is used for the path in /.net programs/ to point questor to where you want it to use the mission xmls from -->
+
+  
+  <!-- SALVAGE AND LOOT SETTINGS -->
+  <createSalvageBookmarks>false</createSalvageBookmarks> <!-- Create salvage bookmarks once a pocket has been cleared and there are wrecks/cans left Note: All salvage bookmarks will be in this naming format:  BookmarkPrefix [time] Note: It will check all salvage bookmarks to see if the current spot has to be bookmarked  Warning: The bot could become slow with a lot of salvage-bookmarks, make sure that after mission salvaging is enabled or that you manually delete bookmarks! -->
+  <salvageMultpleMissionsinOnePass>false</salvageMultpleMissionsinOnePass> <!-- Setting allow you to complete multiple missions before doing after mission salvaging -->
+  <unloadLootAtStation>false</unloadLootAtStation> <!-- Unload loot at station when doing after-mission salvaging (*only* when doing after-mission salvaging) Note: If this is disabled then the bot will use the isk/m3 algorithm used in missions to dump low-value loot -->
+  <reserveCargoCapacity>100</reserveCargoCapacity> <!-- Amount of cargo capacity to reserve, should be at least 80m3 if you are salvaging -->
+  <maximumWreckTargets>1</maximumWreckTargets> <!-- maximum number of wreck targets, at least 1 is required for salvager or tractor beam to work -->
+  <useGatesInSalvage>true</useGatesInSalvage><!-- if the mission does not despawn (ninja looters?) and the accel gates are still present: use gates! -->
+  <bookmarkPrefix>sal:</bookmarkPrefix><!-- All salvage bookmarks will be prefixed by this string, default: Salvage: -->
+  <minimumWreckCount>5</minimumWreckCount><!-- Minimum amount of wrecks / unlooted containers needed for a bookmark to be created -->
+  <afterMissionSalvaging>false</afterMissionSalvaging><!-- After-mission salvaging, this will cause the bot to visit all salvage bookmarks  with the salvage ship and pickup loot / salvage wrecks  Note: After mission salvaging will *only* take place if there are *no* accepted missions left ! -->
+  <lootEverything>false</lootEverything> <!-- Loot everything or only mission loot, if turned off empty loot-actions are ignored and the action is finished as soon as the mission item is in the ship's cargo, if turned on then the bot will loot all wrecks/cans before finishing the loot-action -->
+  <lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion>false</lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion> <!-- lootOnlyWhatYouCanWithoutSlowingDownMissionCompletion if true will ignore the lootEverything setting and will loot 'on the fly' but will not slow down to finish looting --> <!-- questor will only loot in the background and will happily finish pockets that have loot still in them, use loot (to loot the field) or lootitem (to get a specific item only) actions as needed -->
+  <ageofBookmarksForSalvageBehavior>45</ageofBookmarksForSalvageBehavior> <!-- This is the age bookmarks have to reach in minutes before the dedicated salvager will attempt to use the bookmark: expressed in minutes --> <!-- It is HIGHLY recommended that you leave this at greater than 30 min - wrecks roughly (exactly?) 2 hours -->
+  <ageofSalvageBookmarksToExpire>120</ageofSalvageBookmarksToExpire> <!-- Any bookmarks over this age will be deleted without warping there first because the wrecks despawn after ~2 hours anyway: expressed in minutes-->
+  <tractorBeamMinimumCapacitor>0</tractorBeamMinimumCapacitor> <!-- tractorBeamMinimumCapacitor - below this capacitor level the background salvaging behavior will not attempt to use a tractor beam: default 0% -->
+  <salvagerMinimumCapacitor>0</salvagerMinimumCapacitor> <!-- salvagerMinimumCapacitor - below this capacitor level the background salvaging behavior will not attempt to use a salvager: default 0% -->
+  <doNotDoANYSalvagingOutsideMissionActions>false</doNotDoANYSalvagingOutsideMissionActions> <!-- doNotDoANYSalvagingOutsideMissionActions: disabled ALL salvage related actions, tractor/salvager/wreck targeting, everything when not processing a loot or lootitem action in a mission -->
+
+
+  <!-- FITTING SETTINGS -->
+  <factionfittings>
+    <factionfitting faction="Default" fitting="Corax" />
+    <factionfitting faction="Republic Fleet" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Angel Cartel" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Blood Raiders" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Sansha's Nation" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Guristas" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Guristas Pirates" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Caldari State" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Rogue Drones" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Ammatar Mandate" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Thukker Tribe" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Amarr Navy" fitting="Corax" dronetype="2456" />
+	<factionfitting faction="Khanid Kingdom" fitting="Corax" dronetype="2456" />
+  </factionfittings>
+  <missionfittings>
+    <missionfitting mission="Dread Pirate Scarlet" fitting="Corax" dronetype="2456" />
+  </missionfittings>
+  
+    <ammoTypes>
+    <ammoType typeId="24495" damageType="EM"        range="30000" quantity="4000" />
+    <ammoType typeId="24495" damageType="Kinetic"   range="30000" quantity="4000" />
+    <ammoType typeId="24495" damageType="Thermal"   range="30000" quantity="4000" />
+    <ammoType typeId="24495" damageType="Explosive" range="30000" quantity="4000" />
+  </ammoTypes>
+  
+  <defaultDamageType>EM</defaultDamageType>
+  <minimumAmmoCharges>1</minimumAmmoCharges> <!-- If the weapon has less then minimumAmmoCharges, the weapon is forced to reload before attacking a new target -->
+  <capacitorInjectorToLoad>0</capacitorInjectorToLoad>   <!-- Amount of cap booster you want to carry with you, when using a cap injector in fitting-->
+  <weaponGroupId>509</weaponGroupId><!-- Weapon group (508 = Siege, 506 = Cruise, 771 = HAM, etc of the Launcher / Guns / Lasors, NOT the Ammo, *the weapon*) -->
+  <speedNPCFrigatesShouldBeIgnoredByPrimaryWeapons>100</speedNPCFrigatesShouldBeIgnoredByPrimaryWeapons> <!--  BOTH distance and speed have to be met before the NPC Frigate will be removed from the PrimaryWeapons PriorityTarget List... (under the distance, over the speed) -->
+  <distanceNPCFrigatesShouldBeIgnoredByPrimaryWeapons>99999999</distanceNPCFrigatesShouldBeIgnoredByPrimaryWeapons> <!--  If you wish to effectively turn this off you can set the speedTargetsShouldBeIgnoredByMainWeapons to a very high number like: 9999999 -->
+  <armLoadCapBoosters>false</armLoadCapBoosters>
+  <insideThisRangeIsHardToTrack>0</insideThisRangeIsHardToTrack> <!-- If an NPC gets inside this range do not consider it within optimal range anymore (targets within optimal are chosen first) -->
+  <maximumHighValueTargets>4</maximumHighValueTargets><!-- default is 4 --> <!-- Maximum number of targets per value -->
+  <maximumLowValueTargets>3</maximumLowValueTargets><!-- default is 3 -->
+
+  <!-- MOVEMENT SETTINGS -->
+  <avoidBumpingThings>true</avoidBumpingThings> <!-- in missions while moving and when traveling attempt to avoid being too close to certain objects by orbiting those objects to get way from them if needed -->
+  <speedTank>true</speedTank> <!-- When SpeedTank is enabled, Combat-module will try to orbit ships at orbitDistance -->
+  <orbitDistance>5000</orbitDistance> <!-- The range used by SpeedTank -->
+  <orbitStructure>false</orbitStructure> <!--  When SpeedTank is true this optional setting allows you to orbit the gate rather than the target -->
+  <minimumPropulsionModuleDistance>1000</minimumPropulsionModuleDistance> <!-- Propulsion mod settings, do not activate AB/MWD unless these settings are matched -->
+  <minimumPropulsionModuleCapacitor>55</minimumPropulsionModuleCapacitor> <!-- if you are not speed tanking then this value is used to determine where you are 'in range' if it is set. If you want your maximum range to be 'in range' leave this at 0: if you are in a gunboat you probably want this set to your optimal range-->
+  <optimalRange>0</optimalRange>
+  
+  <!-- TANK SETTINGS -->
+  <activateRepairModules>75</activateRepairModules> <!-- Activate shield booster or armor rep when shields/armor drop below this percentage -->
+  <deactivateRepairModules>95</deactivateRepairModules> <!-- Deactivate shield booster or armor rep when shields/armor are above this percentage -->
+  <injectcapperc>10</injectcapperc> <!-- Use cap injector when below this percentage -->
+  
+  <!-- PANIC SETTINGS -->
+  <minimumShieldPct>20</minimumShieldPct>   <!-- Minimum amount of shields before the bot panics and warps to safety -->
+  <minimumArmorPct>0</minimumArmorPct> <!-- Minimum amount of armor before the bot panics and warps to safety -->
+  <minimumCapacitorPct>13</minimumCapacitorPct> <!-- Minimum amount of capacitor before the bot panics and warps to safety -->
+  <safeShieldPct>0</safeShieldPct> <!-- Amount of shield that is seen as "safe" to return to the mission -->
+  <safeArmorPct>0</safeArmorPct> <!-- Amount of armor that is seen as "safe" to return to the mission -->
+  <safeCapacitorPct>65</safeCapacitorPct> <!-- Amount of capacitor that is seen as "safe" to return to the mission -->
+  <safeSpotBookmarkPrefix>safespot</safeSpotBookmarkPrefix><!-- default is safespot: --> <!-- All safespot bookmarks will be prefixed by this string, default: safespot: -->
+  
+  <!-- DRONE SETTINGS -->
+  <useDrones>false</useDrones> <!-- Use drones, disable on ships without a drone bay! -->
+  <droneTypeId>2456</droneTypeId> <!-- Drone type id to load (set to 0 to not reload drones) -->
+  <droneControlRange>44500</droneControlRange> <!-- Maximum drone control range -->
+  <droneMinimumShieldPct>5</droneMinimumShieldPct>  <!-- Do not launch drones if below this shield percentage -->
+  <droneMinimumArmorPct>0</droneMinimumArmorPct><!-- Do not launch drones if below this armor percentage -->
+  <droneMinimumCapacitorPct>5</droneMinimumCapacitorPct> <!-- Do not launch drones if below this capacitor percentage -->
+  <droneRecallShieldPct>5</droneRecallShieldPct> <!-- Recall drones if below this shield percentage -->
+  <droneRecallArmorPct>0</droneRecallArmorPct> <!-- Recall drones if below this armor percentage -->
+  <droneRecallCapacitorPct>10</droneRecallCapacitorPct> <!-- Recall drones if below this capacitor percentage -->
+  <longRangeDroneRecallShieldPct>40</longRangeDroneRecallShieldPct> <!-- Recall drones if below this shield percentage and further away then half the drone control range -->
+  <longRangeDroneRecallArmorPct>0</longRangeDroneRecallArmorPct> <!-- Recall drones if below this armor percentage and further away then half the drone control range -->
+  <longRangeDroneRecallCapacitorPct>12</longRangeDroneRecallCapacitorPct> <!-- Recall drones if below this capacitor percentage and further away then half the drone control range -->
+  <dronesKillHighValueTargets>false</dronesKillHighValueTargets> <!-- Drones normally kill low value targets (frigates) first. If you would prefer your drones to kill high value targets first set this to true -->
+  
+  <!-- MISSION BLACKLIST SETTINGS  -->
+  <factionblacklist> <!-- List of factions which the bot will try to avoid -->
+	<faction>Caldari State</faction>
+  </factionblacklist>
+  
+- <blacklist> <!-- BLACKLIST: List of missions which the bot will always decline -->
+  <mission>Enemies Abound (1 of 5)</mission> 
+  <mission>The Rogue Slave Trader (1 of 2)</mission> 
+  <mission>Recon (2 of 3)</mission> 
+  <mission>The Anomaly (1 of 3)</mission> 
+  <mission>Fire and Ice</mission> 
+  <mission>Transaction Data Delivery</mission> 
+  <mission>Under Suspicion</mission> 
+  <mission>Black Ops Crisis</mission> 
+  <mission>Hunting Black Dog</mission> 
+  <mission>A Desperate Rescue</mission> 
+  <mission>Cargo Delivery</mission>
+  <mission>Duo of Death</mission>
+  <mission>Anomic Agent</mission>
+  <mission>Anomic Base</mission>
+  <mission>Anomic Team</mission>
+  <mission>After The Seven (4 of 5) Ruse</mission>
+  </blacklist>
+  
+  
+  <greylist> <!-- GREYLIST: List of missions which the bot will decline until standings drop below MinAgentGreyListStandings-->
+ </greylist>
+  
+</settings>

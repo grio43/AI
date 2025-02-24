@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+       <!-- https://wiki.eveuniversity.org/Guristas_Den  -->
+      <actions>
+	    <!-- 1st Spawn -->
+		<action name="Kill">
+          <parameter name="Target" value="Guristas Heavy Missile Battery" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Supremacist" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithi Destructor" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithi Supremacist" />
+        </action>
+		<!-- 2nd Spawn -->
+		<action name="WaitForNPCs">
+		  <parameter name="Timeout" value="10"/>
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Anarchist" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithum Ascriber" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithum Silencer" />
+        </action>
+		<!-- 3rd Spawn -->
+		<action name="WaitForNPCs">
+			<parameter name="Timeout" value="10"/>
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithi Demolisher" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithum Silencer" />
+        </action>
+		<!-- 4th Spawn -->
+		<action name="WaitForNPCs">
+			<parameter name="Timeout" value="10"/>
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Supremacist" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Anarchist" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithum Ascriber" />
+        </action>
+        <action name="Kill">
+          <parameter name="Target" value="Pithum Silencer" />
+        </action>
+		<!-- 4th Spawn -->
+		<action name="WaitForNPCs">
+			<parameter name="Timeout" value="10"/>
+		</action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Renegade" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithior Supremacist" />
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Pithum Annihilator" />
+        </action>
+        <action name="ClearPocket" />
+		<action name="LootFactionOnly" />
+		<action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

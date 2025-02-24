@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission>
+  <pockets>    
+	<pocket id="0">  <!-- Several groups of ships, mixed force of Amarr and Caldari vessels. 9 frigs/destroyers at 15k range which all aggro on warp in. Approximately ten more frigs/destroyers in two loose groups plus two cruisers separately. -->
+      <actions>
+	    <action name="ClearPocket" />
+		<action name="Loot"> <!-- this loots the field if LootEverything is true, if False it only loots item below then moves on --> 
+        <parameter name="Item" value="Stranded Pilot" />
+        <parameter name="Target" value="Cargo Container" />
+      </action>
+	    <action name="Done"/> <!-- end of mission: GoToBase -->    
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

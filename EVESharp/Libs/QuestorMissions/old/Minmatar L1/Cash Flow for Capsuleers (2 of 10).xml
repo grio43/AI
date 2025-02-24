@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <actions>
+	    <action name="ClearPocket" />
+        <action name="ClearPocket" />
+		<action name="LootItem">
+          <parameter name="Item" value="Civilians" />
+		  <parameter name="Target" value="Cargo Container" />
+        </action>
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

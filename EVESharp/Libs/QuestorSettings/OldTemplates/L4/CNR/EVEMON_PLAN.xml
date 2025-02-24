@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<SerializableUriCharacter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" guid="634d8aa9-3eee-4743-a5c8-55a5960c1dbb">
+  <characterID>9999999</characterID>
+  <name>raven_navyrororor</name>
+  <homeStationID>0</homeStationID>
+  <DoB>2016-05-13 06:01:28</DoB>
+  <race>Caldari</race>
+  <bloodLine>Deteis</bloodLine>
+  <ancestry>Scientists</ancestry>
+  <gender>Female</gender>
+  <corporationName>Blank Character's Corp</corporationName>
+  <corporationID>9999999</corporationID>
+  <allianceID>0</allianceID>
+  <factionID>0</factionID>
+  <freeSkillPoints>0</freeSkillPoints>
+  <freeRespecs>0</freeRespecs>
+  <cloneJumpDate>0001-01-01 00:00:00</cloneJumpDate>
+  <lastRespecDate>0001-01-01 00:00:00</lastRespecDate>
+  <lastTimedRespec>0001-01-01 00:00:00</lastTimedRespec>
+  <remoteStationDate>0001-01-01 00:00:00</remoteStationDate>
+  <jumpActivation>0001-01-01 00:00:00</jumpActivation>
+  <jumpFatigue>0001-01-01 00:00:00</jumpFatigue>
+  <jumpLastUpdate>0001-01-01 00:00:00</jumpLastUpdate>
+  <certificates />
+  <balance>0</balance>
+  <securityStatus>0</securityStatus>
+  <employmentHistory />
+  <attributes>
+    <intelligence>20</intelligence>
+    <memory>20</memory>
+    <perception>20</perception>
+    <willpower>20</willpower>
+    <charisma>19</charisma>
+  </attributes>
+  <skills>
+    <skill typeID="3394" name="Hull Upgrades" level="4" skillpoints="90510" ownsBook="true" isKnown="true" />
+    <skill typeID="3392" name="Mechanics" level="3" skillpoints="8000" ownsBook="true" isKnown="true" />
+    <skill typeID="3393" name="Repair Systems" level="1" skillpoints="250" ownsBook="false" isKnown="true" />
+    <skill typeID="3437" name="Drone Avionics" level="4" skillpoints="45255" ownsBook="false" isKnown="true" />
+    <skill typeID="23618" name="Drone Durability" level="3" skillpoints="40000" ownsBook="true" isKnown="true" />
+    <skill typeID="3442" name="Drone Interfacing" level="3" skillpoints="40000" ownsBook="true" isKnown="true" />
+    <skill typeID="12305" name="Drone Navigation" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="23606" name="Drone Sharpshooting" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3436" name="Drones" level="5" skillpoints="256000" ownsBook="true" isKnown="true" />
+    <skill typeID="12486" name="Gallente Drone Specialization" level="1" skillpoints="1250" ownsBook="true" isKnown="true" />
+    <skill typeID="24241" name="Light Drone Operation" level="5" skillpoints="256000" ownsBook="true" isKnown="true" />
+    <skill typeID="3427" name="Electronic Warfare" level="1" skillpoints="500" ownsBook="false" isKnown="true" />
+    <skill typeID="3435" name="Propulsion Jamming" level="1" skillpoints="750" ownsBook="false" isKnown="true" />
+    <skill typeID="19921" name="Target Painting" level="3" skillpoints="24000" ownsBook="true" isKnown="true" />
+    <skill typeID="3418" name="Capacitor Management" level="3" skillpoints="24000" ownsBook="false" isKnown="true" />
+    <skill typeID="3417" name="Capacitor Systems Operation" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3426" name="CPU Management" level="5" skillpoints="256000" ownsBook="true" isKnown="true" />
+    <skill typeID="3432" name="Electronics Upgrades" level="5" skillpoints="512000" ownsBook="false" isKnown="true" />
+    <skill typeID="3424" name="Energy Grid Upgrades" level="1" skillpoints="500" ownsBook="false" isKnown="true" />
+    <skill typeID="3413" name="Power Grid Management" level="5" skillpoints="256000" ownsBook="true" isKnown="true" />
+    <skill typeID="28164" name="Thermodynamics" level="1" skillpoints="750" ownsBook="false" isKnown="true" />
+    <skill typeID="3318" name="Weapon Upgrades" level="2" skillpoints="2829" ownsBook="false" isKnown="true" />
+    <skill typeID="3316" name="Controlled Bursts" level="2" skillpoints="2829" ownsBook="false" isKnown="true" />
+    <skill typeID="3300" name="Gunnery" level="4" skillpoints="45255" ownsBook="false" isKnown="true" />
+    <skill typeID="3312" name="Motion Prediction" level="2" skillpoints="2829" ownsBook="false" isKnown="true" />
+    <skill typeID="3310" name="Rapid Firing" level="3" skillpoints="16000" ownsBook="false" isKnown="true" />
+    <skill typeID="3311" name="Sharpshooter" level="3" skillpoints="16000" ownsBook="false" isKnown="true" />
+    <skill typeID="3301" name="Small Hybrid Turret" level="3" skillpoints="8000" ownsBook="false" isKnown="true" />
+    <skill typeID="3315" name="Surgical Strike" level="1" skillpoints="1000" ownsBook="false" isKnown="true" />
+    <skill typeID="3317" name="Trajectory Analysis" level="1" skillpoints="1250" ownsBook="false" isKnown="true" />
+    <skill typeID="3348" name="Leadership" level="3" skillpoints="8000" ownsBook="true" isKnown="true" />
+    <skill typeID="20212" name="Cruise Missile Specialization" level="4" skillpoints="362039" ownsBook="true" isKnown="true" />
+    <skill typeID="3326" name="Cruise Missiles" level="5" skillpoints="1280000" ownsBook="true" isKnown="true" />
+    <skill typeID="20312" name="Guided Missile Precision" level="4" skillpoints="226275" ownsBook="true" isKnown="true" />
+    <skill typeID="3324" name="Heavy Missiles" level="3" skillpoints="24000" ownsBook="true" isKnown="true" />
+    <skill typeID="3321" name="Light Missiles" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="12441" name="Missile Bombardment" level="4" skillpoints="90510" ownsBook="true" isKnown="true" />
+    <skill typeID="3319" name="Missile Launcher Operation" level="5" skillpoints="256000" ownsBook="true" isKnown="true" />
+    <skill typeID="12442" name="Missile Projection" level="4" skillpoints="181020" ownsBook="true" isKnown="true" />
+    <skill typeID="21071" name="Rapid Launch" level="4" skillpoints="90510" ownsBook="true" isKnown="true" />
+    <skill typeID="20315" name="Warhead Upgrades" level="4" skillpoints="226275" ownsBook="true" isKnown="true" />
+    <skill typeID="3452" name="Acceleration Control" level="3" skillpoints="32000" ownsBook="true" isKnown="true" />
+    <skill typeID="3450" name="Afterburner" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3453" name="Evasive Maneuvering" level="4" skillpoints="90510" ownsBook="true" isKnown="true" />
+    <skill typeID="3451" name="Fuel Conservation" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="3454" name="High Speed Maneuvering" level="3" skillpoints="40000" ownsBook="true" isKnown="true" />
+    <skill typeID="3449" name="Navigation" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3455" name="Warp Drive Operation" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3411" name="Cybernetics" level="4" skillpoints="135765" ownsBook="true" isKnown="true" />
+    <skill typeID="3380" name="Industry" level="1" skillpoints="250" ownsBook="false" isKnown="true" />
+    <skill typeID="3386" name="Mining" level="3" skillpoints="8000" ownsBook="false" isKnown="true" />
+    <skill typeID="25863" name="Salvaging" level="3" skillpoints="24000" ownsBook="false" isKnown="true" />
+    <skill typeID="26252" name="Jury Rigging" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="26260" name="Launcher Rigging" level="4" skillpoints="135765" ownsBook="true" isKnown="true" />
+    <skill typeID="13278" name="Archaeology" level="1" skillpoints="750" ownsBook="false" isKnown="true" />
+    <skill typeID="25811" name="Astrometric Acquisition" level="1" skillpoints="1250" ownsBook="false" isKnown="true" />
+    <skill typeID="25739" name="Astrometric Rangefinding" level="1" skillpoints="2000" ownsBook="false" isKnown="true" />
+    <skill typeID="3412" name="Astrometrics" level="3" skillpoints="24000" ownsBook="false" isKnown="true" />
+    <skill typeID="21718" name="Hacking" level="1" skillpoints="750" ownsBook="false" isKnown="true" />
+    <skill typeID="3551" name="Survey" level="3" skillpoints="8000" ownsBook="false" isKnown="true" />
+    <skill typeID="3402" name="Science" level="4" skillpoints="45255" ownsBook="false" isKnown="true" />
+    <skill typeID="21059" name="Shield Compensation" level="4" skillpoints="90510" ownsBook="true" isKnown="true" />
+    <skill typeID="3419" name="Shield Management" level="3" skillpoints="24000" ownsBook="true" isKnown="true" />
+    <skill typeID="3416" name="Shield Operation" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3425" name="Shield Upgrades" level="2" skillpoints="2829" ownsBook="false" isKnown="true" />
+    <skill typeID="3420" name="Tactical Shield Manipulation" level="3" skillpoints="32000" ownsBook="true" isKnown="true" />
+    <skill typeID="3359" name="Connections" level="3" skillpoints="24000" ownsBook="true" isKnown="true" />
+    <skill typeID="3357" name="Diplomacy" level="3" skillpoints="8000" ownsBook="true" isKnown="true" />
+    <skill typeID="3358" name="Fast Talk" level="3" skillpoints="32000" ownsBook="true" isKnown="true" />
+    <skill typeID="3356" name="Negotiation" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="3895" name="Security Connections" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="3355" name="Social" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="33096" name="Caldari Battlecruiser" level="3" skillpoints="48000" ownsBook="true" isKnown="true" />
+    <skill typeID="3338" name="Caldari Battleship" level="4" skillpoints="362039" ownsBook="true" isKnown="true" />
+    <skill typeID="3334" name="Caldari Cruiser" level="3" skillpoints="40000" ownsBook="true" isKnown="true" />
+    <skill typeID="33092" name="Caldari Destroyer" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="3330" name="Caldari Frigate" level="3" skillpoints="16000" ownsBook="false" isKnown="true" />
+    <skill typeID="3342" name="Caldari Industrial" level="1" skillpoints="1000" ownsBook="false" isKnown="true" />
+    <skill typeID="32918" name="Mining Frigate" level="1" skillpoints="500" ownsBook="false" isKnown="true" />
+    <skill typeID="3327" name="Spaceship Command" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="33000" name="Gravimetric Sensor Compensation" level="3" skillpoints="16000" ownsBook="true" isKnown="true" />
+    <skill typeID="3428" name="Long Range Targeting" level="4" skillpoints="90510" ownsBook="false" isKnown="true" />
+    <skill typeID="3431" name="Signature Analysis" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3429" name="Target Management" level="4" skillpoints="45255" ownsBook="true" isKnown="true" />
+    <skill typeID="3443" name="Trade" level="2" skillpoints="1415" ownsBook="false" isKnown="true" />
+  </skills>
+  <implants>
+    <activeCloneSet name="Active Clone">
+      <intelligence>None</intelligence>
+      <memory>None</memory>
+      <willpower>None</willpower>
+      <perception>None</perception>
+      <charisma>None</charisma>
+      <slot6>None</slot6>
+      <slot7>None</slot7>
+      <slot8>None</slot8>
+      <slot9>None</slot9>
+      <slot10>None</slot10>
+    </activeCloneSet>
+    <selectedIndex>0</selectedIndex>
+  </implants>
+  <uri>file:///C:/Users/duketwo/Documents/raven_navyrororor.xml</uri>
+</SerializableUriCharacter>

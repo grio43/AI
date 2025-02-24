@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+		<action name="MoveTo">
+          <parameter name="target" value="Gist Seraphim" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Federation Navy Megathron" />
+		  <parameter name="BreakOnAttackers" value="False" />
+		  <parameter name="IgnoreAttackers" value="True" />
+        </action>
+		<action name="Kill">
+          <parameter name="target" value="Federation Navy Officer" />
+		  <parameter name="BreakOnAttackers" value="False" />
+		  <parameter name="IgnoreAttackers" value="True" />
+        </action>
+		<action name="WaitUntilTargeted">
+          <parameter name="timeout" value="400" />
+        </action>
+		<action name="Ignore">
+          <parameter name="Clear" value="true" />
+        </action>
+		<action name="ClearPocket" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>

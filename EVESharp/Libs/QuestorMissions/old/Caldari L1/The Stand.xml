@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+  <pocket id="0">
+      <actions>
+	    <action name="Activate">
+		  <parameter name="target" value="Acceleration Gate"></parameter>
+	    </action>
+      </actions>
+    </pocket>
+    <pocket id="1">
+      <actions>
+	    <!--  this mission seems to REQUIRE a panic, at least armor damage, maybe more before mission is complete -->
+	    <action name="Kill">
+          <parameter name="Target" value="Mercenary Fighter" />
+        </action>
+		<action name="WaitUntilAggressed">
+          <parameter name="WaitUntilShieldsAreThisLow" value="50"/>
+		  <parameter name="WaitUntilArmorIsThisLow" value="100"/>
+		  <parameter name="Timeout" value="30"/>
+        </action>
+		<action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</mission>
